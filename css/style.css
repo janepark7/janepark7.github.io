@@ -3,19 +3,42 @@
 */
 
 body {
+	background-color: black;
+	font-family: "Work Sans", serif;
 	margin: 0 auto;
-	text-align: center;
+	/* text-align: center; */
+
 }
 
 /***
 ////////// Landing Page
 */
 
-.hero {
-
+.donuts {
+	background: no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 
-.donuts {
-	height: 750px;
-	width: 1050px;
+.head, .sub-head {
+	color: #FFFAFA;
+}
+
+.head {
+	font-family: "Dancing Script";
+	font-size: 65px;
+	padding-left: 50px;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.sub-head {
+	float: right;
+	font-size: 40px;
+	padding-right: 50px;
+	position: absolute;
+	text-align: right;
+	top: 550px;
 }
