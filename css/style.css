@@ -2,12 +2,8 @@
 ////////// BODY
 */
 
-* {
-	box-sizing: border-box;
-}
-
 body {
-	color: black;
+	box-sizing: border-box;
 	font-family: "Crimson Text", serif;
 	margin: 0 auto;
 }
@@ -16,12 +12,9 @@ body {
 ////////// Landing Page
 */
 
-
 .hero {
 	height: 100vh;
-	width: 100vw;
-	padding: 36px;
-	background: url('../assets/images/donuts.jpg') no-repeat center;
+	background: url('../assets/images/donuts.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: flex;
 	opacity: 0.8;
@@ -29,11 +22,13 @@ body {
 }
 
 .head, .sub-head {
-	color: #FFFAFA;
+	/* color: #FFFAFA; */
+	color: #ECECEC;
 }
 
 .head {
-	color: white;
+	/* color: white; */
+	float: right;
 	font-family: "Tangerine", serif;
 	font-size: 85px;
 	letter-spacing: 7px;
@@ -43,11 +38,22 @@ body {
 }
 
 .sub-head {
-	color: white;
-	float: right;
+	/* color: white; */
+	top: 78vh;
 	font-size: 40px;
-	position: relative;
-	top: 250px;
+	padding-right: 35px;
+	position: absolute;
+	right: 0;
+}
+
+.cake {
+	font-family: "Emilys Candy", serif;
+	color: #FFC0CB;
+}
+
+.code {
+	font-family: "Iceland", serif;
+	color: #2ECC71;
 }
 
 /***
