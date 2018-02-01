@@ -8,16 +8,20 @@ body {
 	margin: 0 auto;
 }
 
+h1 {
+	font-weight: bold;
+	 text-transform: uppercase;
+}
 /***
 ////////// Landing Page
 */
 
 .hero {
 	height: 100vh;
-	background: url('../assets/images/donuts.jpg') no-repeat center center fixed;
+	background: url('../assets/images/donuts.jpg') no-repeat center center;
 	background-size: cover;
 	display: flex;
-	opacity: 0.8;
+	opacity: 0.9;
 	position: relative;
 }
 
@@ -27,14 +31,11 @@ body {
 }
 
 .head {
-	/* color: white; */
-	float: right;
-	font-family: "Tangerine", serif;
+	float: left;
 	font-size: 85px;
-	letter-spacing: 7px;
-	padding-left: 50px;
+	letter-spacing: 3px;
 	position: relative;
-	bottom: 30px;
+	/* bottom: 30px; */
 }
 
 .sub-head {
@@ -56,18 +57,60 @@ body {
 	color: #2ECC71;
 }
 
-/***
-*** BIO
-**/
-
-.bio {
-	background-color: yellow;
-}
-
 /****
 ** PROJECTS
 **/
 
 .projects {
-	background-color: red;
+	background-color: #D2D7D3;
+	height: 100vh;
+	width: 100vw;
+}
+
+.project-header {
+	letter-spacing: 3px;
+}
+
+.project-sub-head {
+	text-align: center;
+}
+
+.photos, .dominos, .hamburger {
+	height: 275px;
+	width: 275px;
+	/* position: relative; */
+}
+
+.project-summary {
+	font-size: 18px;
+}
+
+/* Button Style */
+
+
+.button-project, .button-github {
+	position: relative;
+}
+
+.button-project {
+	background-color: #FFC0CB;
+}
+
+.button-github {
+	background-color: #2ECC71;
+}
+
+/***
+*** BIO
+**/
+
+.bio {
+	background-color: #C5EFF7;
+	height: 100vh;
+	font-size: 20px;
+	width: 100vw;
+}
+
+.bio-header {
+	letter-spacing: 3px;
 }
