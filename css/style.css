@@ -32,8 +32,9 @@ h1 {
 
 .head {
 	float: left;
-	font-size: 85px;
+	font-size: 65px;
 	letter-spacing: 3px;
+	padding-top: 55px;
 	position: relative;
 	/* bottom: 30px; */
 }
@@ -63,7 +64,6 @@ h1 {
 
 .projects {
 	background-color: #D2D7D3;
-	height: 100vh;
 	width: 100vw;
 }
 
@@ -114,3 +114,20 @@ h1 {
 .bio-header {
 	letter-spacing: 3px;
 }
+
+.jane {
+	float:left;
+	height: 285px;
+	width: 235px;
+}
+
+.bio-stuff {
+	display: inline-block;
+	padding-left: 10px;
+	width: 60%;
+}
+
+/* .bio-story {
+	display: inline;
+	padding-left: 10px;
+} */
