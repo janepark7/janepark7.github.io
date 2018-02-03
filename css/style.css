@@ -24,10 +24,13 @@ button:hover {
 	background-color: #ECF0F1;
 }
 
-h1 {
+h1, h4, h5 {
 	 font-weight: bold;
-	 letter-spacing: 3px;
 	 text-transform: uppercase;
+}
+
+h1 {
+	letter-spacing: 4px;
 }
 
 h3 {
@@ -35,7 +38,10 @@ h3 {
 }
 
 h4 {
-	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+h5 {
 	letter-spacing: 3px;
 }
 /***
@@ -104,7 +110,7 @@ h4 {
 	text-align: center;
 }
 
-.photos, .dominos, .hamburger {
+.photos {
 	height: 275px;
 	width: 275px;
 	/* position: relative; */
@@ -152,7 +158,6 @@ div.technologies:hover, a.wrapper:hover + div {
 
 .bio {
 	background-color: #C5EFF7;
-	height: 100vh;
 	font-size: 20px;
 	width: 100vw;
 }
@@ -165,22 +170,36 @@ div.technologies:hover, a.wrapper:hover + div {
 .jane {
 	float:left;
 	height: 25%;
+	padding: 10px 10px 10px 10px;
 	width: 35%;
 }
 
+.bio-stuff {
+	display:inline;
+}
+
 .bio-story {
-	display: inline-block;
-	padding-left: 10px;
-	width: 60%;
+	/* width: 60%; */
 }
 
 .bio-story2 {
 	float: left;
+	margin-left: 10px;
 }
 
+.skills {
+	position: relative;
+}
 
+.reach-me {
+	position: relative;
+	margin-left: 10%;
+}
 
-/* .bio-story {
-	display: inline;
-	padding-left: 10px;
-} */
+.contact {
+	height: 75px;
+	margin: 0 5% 0 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 75px;
+}
