@@ -61,11 +61,15 @@ h4, h5 {
 	float: right;
 	letter-spacing: 2px;
 	padding-top: 10px;
+	padding-left: 55px;
 }
 
-nav a {
-	/* font-color:  */
-	padding-left: 55px;
+#about {
+	padding-left: 30px;
+}
+
+#portfolio {
+	padding-right: 30px;
 }
 
 /***
