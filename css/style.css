@@ -1,4 +1,4 @@
-/***
+/*
 ////////// BODY
 */
 
@@ -37,13 +37,37 @@ h3 {
 	font-weight: bold;
 }
 
-h4 {
+h4, h5 {
 	letter-spacing: 3px;
 }
 
-h5 {
+/***
+////////// Nav Bar
+*/
+
+.navigation {
+	display: inline;
+	margin: 2px;
+}
+
+.hero-link {
+	font-size: 28px;
+	float: left;
 	letter-spacing: 3px;
 }
+
+.nav-items {
+	font-size: 18px;
+	float: right;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+
+nav a {
+	/* font-color:  */
+	padding-left: 55px;
+}
+
 /***
 ////////// Landing Page
 */
@@ -96,37 +120,59 @@ h5 {
 
 .projects {
 	background-color: #FFFFF0;
-	padding-bottom: 20px;
+	padding-bottom: 45px;
+	padding-top: 45px;
 	width: 100vw;
 }
 
 .project-header {
-	padding-top: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .project-sub-head {
 	letter-spacing: 2px;
-	padding-top: 10px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
-.photos {
+.photos, .camera {
+	display: block;
+	opacity: 1;
 	height: 275px;
 	width: 275px;
+	transition: .5s ease;
+	backface-visibility: hidden;
 	/* position: relative; */
 }
 
-.technologies {
-	display: none;
-	position: absolute;
-	text-align: center;
-	top: 0;
+.one-third:hover .photos {
+	background-color: #89C4F4;
+	opacity: 0.3;
 }
 
-div.technologies:hover, a.wrapper:hover + div {
-	background-color: grey;
-	display: block;
 
+.one-third:hover .technologies {
+	opacity: 1;
+}
+
+
+.technologies {
+	font-size: 15px;
+	text-align: center;
+	transition: .5 ease;
+	opacity: 0;
+	margin: 0 auto;
+	padding-left: 20px;
+	position: absolute;
+	top: 190px;
+	/* left: 20px; */
+	transform: translateY(15%);
+}
+
+.watch {
+	padding-left: 30px;
 }
 
 .project-summary {
@@ -158,19 +204,22 @@ div.technologies:hover, a.wrapper:hover + div {
 
 .bio {
 	background-color: #C5EFF7;
-	font-size: 20px;
+	font-size: 18px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 	width: 100vw;
 }
 
 .bio-header {
 	letter-spacing: 3px;
-	padding-top: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .jane {
 	float:left;
 	height: 25%;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 20px 10px 0;
 	width: 35%;
 }
 
@@ -193,13 +242,21 @@ div.technologies:hover, a.wrapper:hover + div {
 
 .reach-me {
 	position: relative;
-	margin-left: 10%;
 }
 
 .contact {
-	height: 75px;
-	margin: 0 5% 0 5%;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 75px;
+	float: left;
+	height: 45px;
+	padding-right: 10px;
+	width: 45px;
+}
+
+a.reachme:hover {
+	opacity: 0.3px;
+	background-color:#ffd1dc
+}
+
+.work {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }

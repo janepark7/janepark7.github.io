@@ -14,14 +14,30 @@
 <!-- *~*~*~ Google font  *~*~*~ -->
 
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Emilys+Candy|Iceland|Neuton|Tangerine|Work+Sans" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<!-- *~*~*~ Javascript Tag  *~*~*~ -->
 
+	<script src="/scripts/script.js"></script>
 </head>
 
 <body>
 
+	<!-- *~*~*~ Navigation Bar *~*~*~ -->
+
+
+<nav class="navigation">
+<div class="container">
+	<a href="#hero" class="hero-link">JANE PARK</a>
+
+	<div class="nav-items">
+		<a href="#projects">PROJECTS</a>
+		<a href="#aboutme">ABOUT ME</a>
+		</div>
+		</div>
+</nav>
 <!-- *~*~*~ Landing / Hero Section *~*~*~ -->
 
-	<div class="hero">
+	<div class="hero" id="hero">
 		<div class="container">
 			<h1 class="head">Jane Park</h1>
 				<h2 class="sub-head">A baker who traded
@@ -32,19 +48,17 @@
 	</div>
 
 <!-- *~*~*~ Project Section  *~*~*~ -->
-	<div class="projects">
+	<div class="projects" id="projects">
 		<div class="container">
 			<h1 class="project-header">Projects</h1>
 				<div class="row">
 					<div class="one-third column">
-						<a href="http://photoproject.herokuapp.com" class="wrapper">
-							<div class="image-hover">
-							</div>
+						<a href="http://photoproject.herokuapp.com" target="_blank">
 							<img src="./assets/images/camera.svg" class="photos" alt="project placeholder"/>
 						</a>
 							<div class="technologies">
 								<h5>Built With</h5>
-								<p>Node, EJS, CSS, PostgresSQL, <a href="http://www.getskeleton.com">Skeleton</a></p>
+								<p class="summary">Node, EJS, CSS, PostgresSQL, <a href="http://www.getskeleton.com">Skeleton</a></p>
 							</div>
 								<h3 class="project-sub-head">Photomatic</h3>
 									<p class="project-summary">
@@ -52,38 +66,58 @@
 									</p>
 										<div class="buttons">
 											<div class="container">
+												<a href="http://photoproject.herokuapp.com" target="_blank">
 												<button class="button-project">View Project</button>
+											</a>
+											<a href="https://github.com/janepark7/photomatic_project" target="_blank">
 													<button class="button-github">View GitHub</button>
+											</a>
 										</div>
 											</div>
 					</div>
 					<div class="one-third column">
-						<a href="http://watchthisstore.herokuapp.com/" class="wrapper">
+						<a href="http://watchthisstore.herokuapp.com/" target="_blank" class="wrapper">
 						<img src="./assets/images/watch.svg" class="photos" alt="project placeholder"/>
 						</a>
+						<div class="technologies">
+							<h5 class="watch">Built With</h5>
+							<p class="watch-hover">React, Redux <a href="http://www.getskeleton.com">Skeleton</a></p>
+						</div>
 							<h3 class="project-sub-head">Watch This</h3>
 								<p class="project-summary">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								</p>
 									<div class="buttons">
 										<div class="container">
+											<a href="http://watchthisstore.herokuapp.com/" target="_blank">
 											<button class="button-project">View Project</button>
+											</a>
+											<a href="https://github.com/janepark7/ecomm-server" target="_blank">
 												<button class="button-github">View GitHub</button>
+											</a>
 										</div>
 									</div>
 					</div>
 					<div class="one-third column">
-						<a href="https://desolate-anchorage-50545.herokuapp.com/" class="wrapper">
+						<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank" class="wrapper">
 						<img src="./assets/images/burger.svg" class="photos" alt="project placeholder"/>
 						</a>
+						<div class="technologies">
+							<h5>Built With</h5>
+							<p>React, Redux, <a href="https://semantic-ui.com/">Semantic UI</a></p>
+						</div>
 							<h3 class="project-sub-head">Byte Me</h3>
 								<p class="project-summary">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								</p>
 						<div class="buttons">
 							<div class="container">
+								<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank">
 								<button class="button-project">View Project</button>
+							</a>
+							<a href="https://github.com/janepark7/byteme-app" target="_blank">
 									<button class="button-github">View GitHub</button>
+								</a>
 						</div>
 					</div>
 					</div>
@@ -93,7 +127,7 @@
 
 <!-- *~*~*~ Bio Section *~*~*~ -->
 
-	<div class="bio">
+	<div class="bio" id="aboutme">
 		<div class="container">
 			<h1 class="bio-header">About Me</h1>
 				<img src="./assets/images/portjane.jpg" class="jane" alt="janepark"/>
@@ -108,17 +142,13 @@
 							I created my first webpage when I was in high school by making fan pages for my favorite bands on Angelfire. After graduating from <a href="http://www.nycda.com">New York Code and Design Academy</a>'s Web Development Intensive program,
 								I have learned that creating webpages and apps can go above and beyond simple HTML (and hosting them on Angelfire).
 				</p>
+
 				<p class="skills">
-					<!-- <img src="./assets/images/html.png" class="tech"/>
-					<img src="./assets/images/css.png" class="tech"/>
-					<img src="./assets/images/jquery.png" class="tech"/>
-					<img src="./assets/images/node-js.png" class="tech"/>
-					<img src="./assets/images/react.png" class="tech"/> -->
-					Technologies that I use: HTML, CSS, Javascript, jQuery, React, PostGresSQL
+					Technologies that I use: HTML, CSS, Javascript, Node, React, PostGreSQL
 				</p>
 
-				<h5>Let's Work Together</h5>
-					<p class="reach-me">
+				<h5 class="work">Let's Work Together</h5>
+			<div class="reach-me">
 				<!-- Resume -->
 					<a href="" target="_blank">
 						<img src="./assets/images/document.svg" class="contact"/>
@@ -128,14 +158,14 @@
 						<img src="./assets/images/email.svg" class="contact" />
 					</a>
 					<!-- Github -->
-					<a href="http://www.github.com/janepark7">
+					<a href="http://www.github.com/janepark7" target="_blank">
 						<img src="./assets/images/github.svg" class="contact"/>
 					</a>
 					<!-- Linkedin -->
-						<a href="https://www.linkedin.com/in/jane-park-7aa208132/">
+						<a href="https://www.linkedin.com/in/jane-park-7aa208132/" target="_blank">
 							<img src="./assets/images/linkedin.svg" class="contact"/>
 						</a>
-					</p>
+					</div>
 			</div>
 		</div>
 	</div>
