@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jane Park</title>
 	<link rel="stylesheet" type="text/css" href="css/cssreset.css"/>
 
@@ -17,7 +18,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 <!-- *~*~*~ Javascript Tag  *~*~*~ -->
-
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  				integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  				crossorigin="anonymous"></script>
 	<script src="/scripts/script.js"></script>
 </head>
 
@@ -25,17 +28,16 @@
 
 	<!-- *~*~*~ Navigation Bar *~*~*~ -->
 
+	<nav class="navigation">
+	<div class="container">
+		<a href="#hero" class="hero-link">JANE PARK</a>
 
-<nav class="navigation">
-<div class="container">
-	<a href="#hero" class="hero-link">JANE PARK</a>
-
-	<div class="nav-items">
-		<a href="#projects" id="portfolio">PROJECTS</a>
-		<a href="#aboutme" id="about">ABOUT ME</a>
+		<div class="nav-items">
+			<a href="#projects" id="portfolio">PROJECTS</a>
+			<a href="#aboutme" id="about">ABOUT ME</a>
 		</div>
-		</div>
-</nav>
+	</div>
+	</nav>
 <!-- *~*~*~ Landing / Hero Section *~*~*~ -->
 
 	<div class="hero" id="hero">
@@ -57,13 +59,13 @@
 						<a href="http://photoproject.herokuapp.com" target="_blank">
 							<img src="./assets/images/camera.svg" class="photos" alt="project placeholder"/>
 						</a>
-							<div class="technologies">
-								<h5>Built With</h5>
-								<p class="summary">Node, EJS, CSS, PostgresSQL, <a href="http://www.getskeleton.com">Skeleton</a></p>
-							</div>
-								<h3 class="project-sub-head">Photomatic</h3>
-									<p class="project-summary">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								<div class="technologies">
+									<h5 class="photo-head">Built With</h5>
+										<p class="built-hover">Node, Express, EJS, CSS, PostgresSQL, <a href="http://www.getskeleton.com" class="hover-link">Skeleton</a></p>
+								</div>
+									<h3 class="project-sub-head">Photomatic</h3>
+										<p class="project-summary">
+										 A collaborative photo sharing web application where Users are able to upload and delete photos. In addition, Users are able to comment and like photos.
 									</p>
 										<div class="buttons">
 											<div class="container">
@@ -77,16 +79,16 @@
 											</div>
 					</div>
 					<div class="one-third column">
-						<a href="http://watchthisstore.herokuapp.com/" target="_blank" class="wrapper">
+						<a href="http://watchthisstore.herokuapp.com/" target="_blank">
 						<img src="./assets/images/watch.svg" class="photos" alt="project placeholder"/>
 						</a>
 						<div class="technologies">
-							<h5 class="watch">Built With</h5>
-							<p class="watch-hover">React, Redux <a href="http://www.getskeleton.com">Skeleton</a></p>
+							<h5 class="watch-head">Built With</h5>
+							<p class="watch-hover">React, Redux</p>
 						</div>
 							<h3 class="project-sub-head">Watch This</h3>
 								<p class="project-summary">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									An e-commerce page showcasing front-end skills. User has the ability to shop, add items to cart, and check items out. The server is built with express. 
 								</p>
 									<div class="buttons">
 										<div class="container">
@@ -100,16 +102,16 @@
 									</div>
 					</div>
 					<div class="one-third column">
-						<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank" class="wrapper">
+						<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank">
 						<img src="./assets/images/burger.svg" class="photos" alt="project placeholder"/>
 						</a>
 						<div class="technologies">
-							<h5>Built With</h5>
-							<p>React, Redux, <a href="https://semantic-ui.com/">Semantic UI</a></p>
+							<h5 class="burger-head">Built With</h5>
+							<p class="burger-hover">React, Redux, <a href="https://semantic-ui.com/" class="hover-link">Semantic UI</a></p>
 						</div>
 							<h3 class="project-sub-head">Byte Me</h3>
 								<p class="project-summary">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									A collaborative food web app. User will display photos of food which will be displayed on a mobile app for Users to swipe photo. <i>Mobile app is under development</i>.
 								</p>
 						<div class="buttons">
 							<div class="container">

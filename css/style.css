@@ -47,7 +47,11 @@ h4, h5 {
 
 .navigation {
 	display: inline;
-	margin: 2px;
+	padding: 5px;
+}
+
+nav.hidden {
+	transform(translateY(100%));
 }
 
 .hero-link {
@@ -61,7 +65,7 @@ h4, h5 {
 	float: right;
 	letter-spacing: 2px;
 	padding-top: 10px;
-	padding-left: 55px;
+	padding-left: 10px;
 }
 
 #about {
@@ -85,12 +89,12 @@ h4, h5 {
 	position: relative;
 }
 
-.head, .sub-head {
+h1.head, h2.sub-head {
 	/* color: #FFFAFA; */
 	color: #ECECEC;
 }
 
-.head {
+h1.head {
 	float: left;
 	font-size: 65px;
 	letter-spacing: 3px;
@@ -99,7 +103,7 @@ h4, h5 {
 	/* bottom: 30px; */
 }
 
-.sub-head {
+h2.sub-head {
 	/* color: white; */
 	top: 78vh;
 	font-size: 40px;
@@ -108,12 +112,12 @@ h4, h5 {
 	right: 0;
 }
 
-.cake {
+font.cake {
 	font-family: "Emilys Candy", serif;
 	color: #FFC0CB;
 }
 
-.code {
+font.code {
 	font-family: "Iceland", serif;
 	color: #2ECC71;
 }
@@ -129,19 +133,19 @@ h4, h5 {
 	width: 100vw;
 }
 
-.project-header {
+h1.project-header {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
-.project-sub-head {
+h3.project-sub-head {
 	letter-spacing: 2px;
 	padding-top: 35px;
 	padding-bottom: 20px;
 	text-align: center;
 }
 
-.photos, .camera {
+img.photos, img.camera {
 	display: block;
 	opacity: 1;
 	height: 275px;
@@ -156,32 +160,58 @@ h4, h5 {
 	opacity: 0.3;
 }
 
-
 .one-third:hover .technologies {
 	opacity: 1;
 }
 
+.photo-head {
+	padding-right: 55px;
+}
+
+.built-hover {
+	width: 55%;
+	margin: 0 auto;
+	padding-right: 55px;
+	font-size: 16px;
+}
 
 .technologies {
-	font-size: 15px;
 	text-align: center;
 	transition: .5 ease;
 	opacity: 0;
 	margin: 0 auto;
-	padding-left: 20px;
 	position: absolute;
 	top: 190px;
-	/* left: 20px; */
 	transform: translateY(15%);
 }
 
-.watch {
+.hover-link {
+	color: #34495E;
+}
+
+.watch-head {
+	margin-left: 55px;
+}
+
+img.watch {
 	padding-left: 30px;
 }
 
-.project-summary {
+.watch-hover {
+	margin-left: 45px;
+}
+
+.project-summary, .watch-hover, .burger-hover {
 	font-size: 18px;
 }
+
+.burger-head, .burger-hover {
+	margin-left: 30px;
+}
+
+/* .burger-hover {
+	margin-left: 30px;
+} */
 
 /* Button Style */
 
@@ -220,11 +250,13 @@ h4, h5 {
 	padding-bottom: 25px;
 }
 
-.jane {
+img.jane {
+	/* border-radius: 50%; */
 	float:left;
-	height: 25%;
-	padding: 10px 20px 10px 0;
-	width: 35%;
+	height: 215px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	width: 315px;
 }
 
 .bio-stuff {
@@ -255,7 +287,7 @@ h4, h5 {
 	width: 45px;
 }
 
-a.reachme:hover {
+a.reach-me:hover {
 	opacity: 0.3px;
 	background-color:#ffd1dc
 }
