@@ -1,10 +1,13 @@
-/*
-////////// BODY
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* ======================
+========= BODY ==========
+=========================
 */
 
 body {
 	box-sizing: border-box;
-	font-family: "Crimson Text", serif;
+	font-family: "Open Sans", serif;
 	margin: 0 auto;
 }
 
@@ -25,7 +28,7 @@ button:hover {
 }
 
 h1, h4, h5 {
-	 font-weight: bold;
+	 font-family: "Georgia", sans-serif;
 	 text-transform: uppercase;
 }
 
@@ -41,8 +44,9 @@ h4, h5 {
 	letter-spacing: 3px;
 }
 
-/***
-////////// Nav Bar
+/* ======================
+========= NAV BAR =======
+=========================
 */
 
 .navigation {
@@ -55,6 +59,7 @@ nav.hidden {
 }
 
 .hero-link {
+	font-family: "Georgia", sans-serif;
 	font-size: 28px;
 	float: left;
 	letter-spacing: 3px;
@@ -76,12 +81,14 @@ nav.hidden {
 	padding-right: 30px;
 }
 
-/***
-////////// Landing Page
+/* ======================
+===== LANDING PAGE ======
+=========================
 */
 
 .hero {
 	height: 100vh;
+	width: 100%;
 	background: url('../assets/images/donuts.jpg') no-repeat center center;
 	background-size: cover;
 	display: flex;
@@ -95,10 +102,14 @@ h1.head, h2.sub-head {
 }
 
 h1.head {
+	font-weight: bold;
 	float: left;
 	font-size: 65px;
 	letter-spacing: 3px;
-	padding-top: 55px;
+	margin-top: 4%;
+	margin-left: 3%;
+	padding-left:
+
 	position: relative;
 	/* bottom: 30px; */
 }
@@ -126,26 +137,30 @@ font.code {
 ** PROJECTS
 **/
 
+.project-column {
+	position: relative;
+	padding: 10px;
+}
+
 .projects {
 	background-color: #FFFFF0;
-	padding-bottom: 45px;
+	/* padding-bottom: 45px;
 	padding-top: 45px;
-	width: 100vw;
+	width: 100vw; */
 }
 
 h1.project-header {
 	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 h3.project-sub-head {
+	font-family: "Georgia", sans-serif;
+	padding-top: 15px;
 	letter-spacing: 2px;
-	padding-top: 35px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
-img.photos, img.camera {
+img.photos {
 	display: block;
 	opacity: 1;
 	height: 275px;
@@ -164,9 +179,9 @@ img.photos, img.camera {
 	opacity: 1;
 }
 
-.photo-head {
+/* .photo-head {
 	padding-right: 55px;
-}
+} */
 
 .built-hover {
 	width: 55%;
@@ -181,7 +196,7 @@ img.photos, img.camera {
 	opacity: 0;
 	margin: 0 auto;
 	position: absolute;
-	top: 190px;
+	top: 0;
 	transform: translateY(15%);
 }
 
@@ -189,25 +204,25 @@ img.photos, img.camera {
 	color: #34495E;
 }
 
-.watch-head {
+/* .watch-head {
 	margin-left: 55px;
-}
+} */
 
 img.watch {
 	padding-left: 30px;
 }
 
-.watch-hover {
+/* .watch-hover {
 	margin-left: 45px;
-}
+} */
 
 .project-summary, .watch-hover, .burger-hover {
-	font-size: 18px;
+	font-size: 16px;
 }
 
-.burger-head, .burger-hover {
+/* .burger-head, .burger-hover {
 	margin-left: 30px;
-}
+} */
 
 /* .burger-hover {
 	margin-left: 30px;
@@ -217,6 +232,7 @@ img.watch {
 
 .buttons {
 	padding-left: 55px;
+	padding-bottom: 10%;
 	margin: 0 auto;
 }
 
@@ -245,9 +261,8 @@ img.watch {
 }
 
 .bio-header {
+	font-family: "Georgia", sans-serif;
 	letter-spacing: 3px;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 img.jane {

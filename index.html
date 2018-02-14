@@ -29,25 +29,25 @@
 	<!-- *~*~*~ Navigation Bar *~*~*~ -->
 
 	<nav class="navigation">
-	<div class="container">
+		<div class="container">
 		<a href="#hero" class="hero-link">JANE PARK</a>
-
 		<div class="nav-items">
 			<a href="#projects" id="portfolio">PROJECTS</a>
 			<a href="#aboutme" id="about">ABOUT ME</a>
 		</div>
 	</div>
 	</nav>
+
 <!-- *~*~*~ Landing / Hero Section *~*~*~ -->
 
 	<div class="hero" id="hero">
-		<div class="container">
+		<!-- <div class="container"> -->
 			<h1 class="head">Jane Park</h1>
-				<h2 class="sub-head">A baker who traded
-					<font class="cake">cake</font> for
-						<font class="code">code</font>.
-				</h2>
-		</div>
+			<h2 class="sub-head">A baker who traded
+			<font class="cake">cake</font> for
+			<font class="code">code</font>.
+			</h2>
+		<!-- </div> -->
 	</div>
 
 <!-- *~*~*~ Project Section  *~*~*~ -->
@@ -55,40 +55,45 @@
 		<div class="container">
 			<h1 class="project-header">Projects</h1>
 				<div class="row">
-					<div class="one-third column">
-						<a href="http://photoproject.herokuapp.com" target="_blank">
-							<img src="./assets/images/camera.svg" class="photos" alt="project placeholder"/>
+<!--=== Photomatic ===-->
+					<div class="one-third column project-column">
+						<div class="project-link">
+						<a href="http://photoproject.herokuapp.com" target="_blank" class="hover-link">
+						<img src="./assets/images/camera.svg" class="photos" alt="project placeholder"/>
 						</a>
-								<div class="technologies">
-									<h5 class="photo-head">Built With</h5>
-										<p class="built-hover">Node, Express, EJS, CSS, PostgresSQL, <a href="http://www.getskeleton.com" class="hover-link">Skeleton</a></p>
-								</div>
-									<h3 class="project-sub-head">Photomatic</h3>
-										<p class="project-summary">
-										 A collaborative photo sharing web application where Users are able to upload and delete photos. In addition, Users are able to comment and like photos.
-									</p>
-										<div class="buttons">
-											<div class="container">
-												<a href="http://photoproject.herokuapp.com" target="_blank">
-												<button class="button-project">View Project</button>
+							<div class="technologies">
+								<h5 class="photo-head">Built With</h5>
+								<p class="built-hover">Node, Express, EJS, CSS, PostgresSQL, Skeleton</p>
+							</div>
+								<h3 class="project-sub-head">Photomatic</h3>
+								<p class="project-summary">
+								A collaborative photo sharing web application where Users are able to upload and delete photos. In addition, Users are able to comment and like photos.
+								</p>
+									<div class="buttons">
+										<div class="container">
+											<a href="http://photoproject.herokuapp.com" target="_blank">
+											<button class="button-project">View Project</button>
 											</a>
 											<a href="https://github.com/janepark7/photomatic_project" target="_blank">
-													<button class="button-github">View GitHub</button>
+											<button class="button-github">View GitHub</button>
 											</a>
 										</div>
-											</div>
+									</div>
+						</div>
 					</div>
-					<div class="one-third column">
-						<a href="http://watchthisstore.herokuapp.com/" target="_blank">
+<!--=== Watch This ===-->
+					<div class="one-third column project-column">
+						<div class="project-link">
+						<a href="http://watchthisstore.herokuapp.com/" target="_blank" class="hover-link">
 						<img src="./assets/images/watch.svg" class="photos" alt="project placeholder"/>
 						</a>
-						<div class="technologies">
-							<h5 class="watch-head">Built With</h5>
-							<p class="watch-hover">React, Redux</p>
-						</div>
+							<div class="technologies">
+								<h5 class="watch-head">Built With</h5>
+								<p class="built-hover">React, Redux, Sass</p>
+							</div>
 							<h3 class="project-sub-head">Watch This</h3>
 								<p class="project-summary">
-									An e-commerce page showcasing front-end skills. User has the ability to shop, add items to cart, and check items out. The server is built with express. 
+								An e-commerce page showcasing front-end skills. User has the ability to shop, add items to cart, and check items out. The server is built with express.
 								</p>
 									<div class="buttons">
 										<div class="container">
@@ -96,33 +101,37 @@
 											<button class="button-project">View Project</button>
 											</a>
 											<a href="https://github.com/janepark7/ecomm-server" target="_blank">
-												<button class="button-github">View GitHub</button>
+											<button class="button-github">View GitHub</button>
 											</a>
 										</div>
 									</div>
-					</div>
-					<div class="one-third column">
-						<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank">
-						<img src="./assets/images/burger.svg" class="photos" alt="project placeholder"/>
-						</a>
-						<div class="technologies">
-							<h5 class="burger-head">Built With</h5>
-							<p class="burger-hover">React, Redux, <a href="https://semantic-ui.com/" class="hover-link">Semantic UI</a></p>
 						</div>
+					</div>
+<!--=== Byte Me ===-->
+					<div class="one-third column project-column">
+						<div class="project-link">
+							<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank" class="hover-link">
+							<img src="./assets/images/burger.svg" class="photos" alt="project placeholder"/>
+						</a>
+							<div class="technologies">
+								<h5 class="burger-head">Built With</h5>
+								<p class="built-hover">React, Redux, Node, React Native, Semantic UI</p>
+							</div>
 							<h3 class="project-sub-head">Byte Me</h3>
 								<p class="project-summary">
 									A collaborative food web app. User will display photos of food which will be displayed on a mobile app for Users to swipe photo. <i>Mobile app is under development</i>.
 								</p>
-						<div class="buttons">
-							<div class="container">
-								<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank">
-								<button class="button-project">View Project</button>
-							</a>
-							<a href="https://github.com/janepark7/byteme-app" target="_blank">
+							<div class="buttons">
+								<div class="container">
+									<a href="https://desolate-anchorage-50545.herokuapp.com/" target="_blank">
+									<button class="button-project">View Project</button>
+									</a>
+									<a href="https://github.com/janepark7/byteme-app" target="_blank">
 									<button class="button-github">View GitHub</button>
-								</a>
+									</a>
+								</div>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 		</div>
@@ -137,13 +146,13 @@
 			<div class="bio-stuff">
 				<p class="bio-story">
 					Hi, I'm Jane! I'm a Front-End Developer. I was Baker and Pastry Chef for many years before diving into the world of code.
-						I feel like both worlds are no different from one another, except having the end result being a sweet treat,
-							you have a functioning webpage or app to display all of your work to make your life just as sweet!
+					I feel like both worlds are no different from one another, except having the end result being a sweet treat (that you can eat),
+					you have a functioning webpage or app to display all of your work to make your life just as sweet!
 				</p>
 				<p>
-						I love creating things from the ground up. It's so exciting to see a product that you started from the beginning turn into something that go beyond your expectations.
-							I created my first webpage when I was in high school by making fan pages for my favorite bands on Angelfire. After graduating from <a href="http://www.nycda.com">New York Code and Design Academy</a>'s Web Development Intensive program,
-								I have learned that creating webpages and apps can go above and beyond simple HTML (and hosting them on Angelfire).
+						I love creating things from the ground up. It's so exciting to see a product that you started from the beginning turn into something that go above and beyond your expectations.
+						I created my first webpage when I was in high school by making fan pages for my favorite bands on Angelfire (shout out to hosting pages of the 90's). After graduating from <a href="http://www.nycda.com">New York Code and Design Academy</a>'s Web Development Intensive program,
+						I have learned that creating webpages and apps can go above and beyond HTML (and hosting them on Angelfire).
 				</p>
 
 				<p class="skills">
