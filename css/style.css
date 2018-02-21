@@ -50,11 +50,14 @@ h4, h5 {
 */
 
 .navigation {
+	background-color: #000000;
+	opacity: 0.5;
 	display: inline;
-	padding: 5px;
+	margin: 20px;
+
 }
 
-nav.hidden {
+.navigation.hidden {
 	transform(translateY(100%));
 }
 
@@ -73,12 +76,17 @@ nav.hidden {
 	padding-left: 10px;
 }
 
+.hero-link {
+	padding-left: 35px;
+}
+
 #about {
-	padding-left: 30px;
+	padding-left: 55px;
+	padding-right: 55px;
 }
 
 #portfolio {
-	padding-right: 30px;
+	padding-right: 35px;
 }
 
 /* ======================
@@ -145,8 +153,8 @@ font.code {
 .projects {
 	background-color: #FFFFF0;
 	/* padding-bottom: 45px;
-	padding-top: 45px;
-	width: 100vw; */
+	padding-top: 45px; */
+	width: 100%;
 }
 
 h1.project-header {
