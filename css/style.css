@@ -36,57 +36,8 @@ h1 {
 	letter-spacing: 4px;
 }
 
-h3 {
-	font-weight: bold;
-}
-
 h4, h5 {
 	letter-spacing: 3px;
-}
-
-/* ======================
-========= NAV BAR =======
-=========================
-*/
-
-.navigation {
-	background-color: #000000;
-	opacity: 0.5;
-	display: inline;
-	margin: 20px;
-
-}
-
-.navigation.hidden {
-	transform(translateY(100%));
-}
-
-.hero-link {
-	font-family: "Georgia", sans-serif;
-	font-size: 28px;
-	float: left;
-	letter-spacing: 3px;
-}
-
-.nav-items {
-	font-size: 18px;
-	float: right;
-	letter-spacing: 2px;
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-.hero-link {
-	padding-left: 35px;
-}
-
-#about {
-	padding-left: 55px;
-	padding-right: 55px;
-}
-
-#portfolio {
-	padding-right: 35px;
 }
 
 /* ======================
@@ -110,25 +61,23 @@ h1.head, h2.sub-head {
 }
 
 h1.head {
-	font-weight: bold;
 	float: left;
 	font-size: 65px;
 	letter-spacing: 3px;
 	margin-top: 4%;
 	margin-left: 3%;
-	padding-left:
-
+	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
 	position: relative;
 	/* bottom: 30px; */
 }
 
 h2.sub-head {
-	/* color: white; */
 	top: 78vh;
 	font-size: 40px;
 	padding-right: 35px;
 	position: absolute;
 	right: 0;
+	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
 }
 
 font.cake {
@@ -212,29 +161,48 @@ img.photos {
 	color: #34495E;
 }
 
-/* .watch-head {
+.project-summary, .watch-hover, .burger-hover {
+	font-size: 16px;
+}
+
+/*
+Photomatic
+*/
+
+.photo-head {
+	padding-top: 45px;
+}
+
+.built-hover {
+	padding-left: 40px;
+}
+
+/*
+Watch This
+*/
+
+.watch-head {
 	margin-left: 55px;
-} */
+	padding-top: 50px;
+}
+
+.watch-hover {
+	padding-left: 40px;
+}
 
 img.watch {
 	padding-left: 30px;
 }
 
-/* .watch-hover {
-	margin-left: 45px;
-} */
+/*
+Burger Head
+*/
 
-.project-summary, .watch-hover, .burger-hover {
-	font-size: 16px;
+.burger-head {
+	padding-top: 45px;
 }
 
-/* .burger-head, .burger-hover {
-	margin-left: 30px;
-} */
 
-/* .burger-hover {
-	margin-left: 30px;
-} */
 
 /* Button Style */
 
@@ -316,6 +284,5 @@ a.reach-me:hover {
 }
 
 .work {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
