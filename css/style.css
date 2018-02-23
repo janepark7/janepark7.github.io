@@ -231,9 +231,8 @@ Burger Head
 .bio {
 	background-color: #C5EFF7;
 	font-size: 18px;
-	padding-bottom: 40px;
-	padding-top: 40px;
-	width: 100vw;
+	padding: 55px 110px;
+	/* width: 100vw; */
 }
 
 .bio-header {
@@ -251,7 +250,7 @@ img.jane {
 }
 
 .bio-stuff {
-	display:inline;
+	display: inline;
 }
 
 .bio-story {
@@ -272,7 +271,6 @@ img.jane {
 }
 
 .contact {
-	float: left;
 	height: 45px;
 	padding-right: 10px;
 	width: 45px;
@@ -283,6 +281,22 @@ a.reach-me:hover {
 	background-color:#ffd1dc
 }
 
-.work {
-	/* padding-bottom: 20px; */
+.arrow {
+	text-align: center;
+	position: relative;
+}
+
+.up {
+	background-color: #E08283;
+	border: 1px solid #ccc9c9;
+  padding: 10px;
+	border-radius: 3px;
+  box-shadow: 0px 1px 0px #e8e7e7;
+  font-size: 15px;
+  cursor: pointer;
+	position: relative;
+}
+
+a.up {
+	color: #000000;
 }
