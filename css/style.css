@@ -21,6 +21,7 @@ a:link {
 
 button {
 	border: none;
+	width: 150px;
 }
 
 button:hover {
@@ -240,21 +241,25 @@ Burger Head
 	letter-spacing: 3px;
 }
 
-img.jane {
-	/* border-radius: 50%; */
+.jane {
+	background: url('../assets/images/portjane.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
 	float:left;
-	height: 215px;
-	padding-right: 25px;
-	padding-bottom: 10px;
-	width: 315px;
+	margin: 15px;
+	height: 300px;
+	padding: 10px 15px;
+	width: 300px;
 }
 
 .bio-stuff {
 	display: inline;
+	padding-left: 15px;
 }
 
 .bio-story {
-	/* width: 60%; */
+	padding-left: 15px;
 }
 
 .bio-story2 {
@@ -267,13 +272,27 @@ img.jane {
 }
 
 .reach-me {
-	position: relative;
+	/* position: relative; */
+	margin: 0 auto;
+
 }
 
 .contact {
 	height: 45px;
 	padding-right: 10px;
 	width: 45px;
+	margin: 0 auto;
+}
+
+.centerme {
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding-bottom: 45px;
+}
+
+.work {
+	text-align: center;
 }
 
 a.reach-me:hover {
