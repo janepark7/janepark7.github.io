@@ -1,325 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/* ======================
-========= BODY ==========
-=========================
-*/
-
-body {
-	box-sizing: border-box;
-	font-family: "Open Sans", serif;
-	margin: 0 auto;
-}
-
-a:hover {
-	color: #16A085;
-}
-
-a:link {
-	text-decoration: none;
-}
-
-button {
-	border: none;
-	width: 150px;
-}
-
-button:hover {
-	background-color: #ECF0F1;
-}
-
-h1, h4, h5 {
-	 font-family: "Georgia", sans-serif;
-	 text-transform: uppercase;
-}
+/* G L O B A L  S T Y L E S  */
 
 h1 {
-	letter-spacing: 4px;
+	margin: 0;
 }
-
-h4, h5 {
-	letter-spacing: 3px;
-}
-
-/* ======================
-===== LANDING PAGE ======
-=========================
-*/
-
-.hero {
-	height: 100vh;
+.background, .projects, .about-me {
 	width: 100%;
+	margin: 0;
+}
+
+
+/* N A V B A R */
+
+.navbar {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+	position: fixed;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-nav .nav-link {
+	color: white;
+}
+
+/* E N D  N A V B A R  */
+
+/* H E R O / L A N D I N G  P A G E */
+
+.hero-head {
+	text-align: center;
+	color: #ffffff;
+}
+
+.background {
 	background: url('../assets/images/donuts.jpg') no-repeat center center;
 	background-size: cover;
-	display: flex;
-	opacity: 0.9;
-	position: relative;
+	height: 100vh;
 }
 
-h1.head, h2.sub-head {
-	/* color: #FFFAFA; */
-	color: #ECECEC;
-}
+/* E N D  H E R O / L A N D I N G  P A G E */
 
-h1.head {
-	float: left;
-	font-size: 65px;
-	letter-spacing: 3px;
-	margin-top: 4%;
-	margin-left: 3%;
-	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
-	position: relative;
-	/* bottom: 30px; */
-}
-
-h2.sub-head {
-	top: 78vh;
-	font-size: 40px;
-	padding-right: 35px;
-	position: absolute;
-	right: 0;
-	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
-}
-
-font.cake {
-	font-family: "Emilys Candy", serif;
-	color: #FFC0CB;
-}
-
-font.code {
-	font-family: "Iceland", serif;
-	color: #2ECC71;
-}
-
-/****
-** PROJECTS
-**/
-
-.project-column {
-	position: relative;
-	padding: 10px;
-}
-
+/* P R O J E C T  */
 .projects {
-	background-color: #FFFFF0;
-	/* padding-bottom: 45px;
-	padding-top: 45px; */
-	width: 100%;
+	background: #ECF0F1;
 }
+/* E N D  P R O J E C T  */
 
-h1.project-header {
-	padding-top: 25px;
+/* A B O U T  M E  */
+.about-me {
+	background: #86E2D5;
 }
-
-h3.project-sub-head {
-	font-family: "Georgia", sans-serif;
-	padding-top: 15px;
-	letter-spacing: 2px;
-	text-align: center;
-}
-
-img.photos {
-	display: block;
-	opacity: 1;
-	height: 275px;
-	width: 275px;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	/* position: relative; */
-}
-
-.one-third:hover .photos {
-	background-color: #89C4F4;
-	opacity: 0.3;
-}
-
-.one-third:hover .technologies {
-	opacity: 1;
-}
-
-/* .photo-head {
-	padding-right: 55px;
-} */
-
-.built-hover {
-	width: 55%;
-	margin: 0 auto;
-	padding-right: 55px;
-	font-size: 16px;
-}
-
-.technologies {
-	text-align: center;
-	transition: .5 ease;
-	opacity: 0;
-	margin: 0 auto;
-	position: absolute;
-	top: 0;
-	transform: translateY(15%);
-}
-
-.hover-link {
-	color: #34495E;
-}
-
-.project-summary, .watch-hover, .burger-hover {
-	font-size: 16px;
-}
-
-/*
-Photomatic
-*/
-
-.photo-head {
-	padding-top: 45px;
-}
-
-.built-hover {
-	padding-left: 40px;
-}
-
-/*
-Watch This
-*/
-
-.watch-head {
-	margin-left: 55px;
-	padding-top: 50px;
-}
-
-.watch-hover {
-	padding-left: 40px;
-}
-
-img.watch {
-	padding-left: 30px;
-}
-
-/*
-Burger Head
-*/
-
-.burger-head {
-	padding-top: 45px;
-}
-
-
-
-/* Button Style */
-
-.buttons {
-	padding-left: 55px;
-	padding-bottom: 10%;
-	margin: 0 auto;
-}
-
-.button-project, .button-github {
-	position: relative;
-}
-
-.button-project {
-	background-color: #FFC0CB;
-}
-
-.button-github {
-	background-color: #2ECC71;
-}
-
-/***
-*** BIO
-**/
-
-.jp-bio {
-	max-width: 100%;
-}
-
-.bio {
-	background-color: #C5EFF7;
-	font-size: 18px;
-	padding-top: 45px;
-	padding-bottom: 45px;
-	/* padding: 55px 110px; */
-	/* width: 100vw; */
-}
-
-.bio-header {
-	font-family: "Georgia", sans-serif;
-	letter-spacing: 3px;
-}
-
-.jane {
-	background: url('../assets/images/portjane.jpg');
-	background-size: cover;
-	background-position: center;
-	border-radius: 50%;
-	float:left;
-	/* margin: 15px; */
-	height: 300px;
-	/* padding: 10px 15px; */
-	width: 300px;
-}
-
-.bio-stuff {
-	display: inline;
-	padding-left: 15px;
-}
-
-.bio-story, .skills {
-	text-align: justify;
-	position: relative;
-	padding-left: 15px;
-}
-
-.bio-story2 {
-	float: left;
-	margin-left: 10px;
-}
-
-.reach-me {
-	/* position: relative; */
-	margin: 0 auto;
-
-}
-
-.contact {
-	height: 45px;
-	padding-right: 10px;
-	width: 45px;
-	margin: 0 auto;
-}
-
-.centerme {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-bottom: 45px;
-}
-
-.work {
-	text-align: center;
-}
-
-a.reach-me:hover {
-	opacity: 0.3px;
-	background-color:#ffd1dc
-}
-
-.arrow {
-	text-align: center;
-	position: relative;
-}
-
-.up {
-	background-color: #E08283;
-	border: 1px solid #ccc9c9;
-  padding: 10px;
-	border-radius: 3px;
-  box-shadow: 0px 1px 0px #e8e7e7;
-  font-size: 15px;
-  cursor: pointer;
-	position: relative;
-}
-
-a.up {
-	color: #000000;
-}
+/* E N D  A B O U T  M E  */
