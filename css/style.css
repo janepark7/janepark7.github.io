@@ -229,8 +229,8 @@ a.reach-me:hover {
 }
 
 .arrow {
-	margin: 35px 0;
-	padding: 30px 0;
+	margin-top: 35px;
+	padding-top: 30px 0;
 	text-align: center;
 	position: relative;
 }
