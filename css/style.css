@@ -1,57 +1,251 @@
-/* G L O B A L  S T Y L E S  */
+/* =================
+			G L O B A L
+==================== */
+
+body {
+	box-sizing: border-box;
+	font-family: "Pontano Sans", sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+a:hover {
+	color: #16A085;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: #ECF0F1;
+}
 
 h1 {
-	margin: 0;
-}
-.background, .projects, .about-me {
-	width: 100%;
-	margin: 0;
+	 text-transform: uppercase;
 }
 
-
-/* N A V B A R */
-
-.navbar {
-	background-color:transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;
-	position: fixed;
+.headline {
+	padding-top: 25px;
+	letter-spacing: 10px;
+	padding: 15px 0;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4),
+							 0px 5px 10px rgba(0, 0, 0, 0.1),
+							 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-nav {
-	float: right;
-}
 
-.navbar-nav .nav-link {
-	color: white;
-}
+/* ======================
+===== LANDING PAGE ======
+=========================
+*/
 
-/* E N D  N A V B A R  */
-
-/* H E R O / L A N D I N G  P A G E */
-
-.hero-head {
-	text-align: center;
-	color: #ffffff;
-}
-
-.background {
-	background: url('../assets/images/donuts.jpg') no-repeat center center;
-	background-size: cover;
+.hero {
 	height: 100vh;
+	width: 100%;
+	background: silver;
+	position: relative;
+	background: linear-gradient(to top, #eff4fd, #b1caf6);
 }
 
-/* E N D  H E R O / L A N D I N G  P A G E */
+.titles {
+	padding-top: 25%;
+	text-align: center;
+}
 
-/* P R O J E C T  */
+h1.hero-head {
+	letter-spacing: 20px;
+	font-size: 4.5em;
+	font-weight: bold;
+}
+
+h2.hero-sub-head {
+	padding-top: 25px;
+	letter-spacing: 5px;
+}
+
+h1.hero-head, h2.hero-sub-head {
+	color: #ECECEC;
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4),
+							 0px 5px 10px rgba(0, 0, 0, 0.1),
+							 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+	width: 10%;
+}
+
+.cake-text {
+	font-family: "Emilys Candy", serif;
+	color: #ffd2e8;
+}
+
+.code-text {
+	font-family: "Iceland", serif;
+	color: #00e500;
+	font-size: 1.25em;
+}
+
+#cake-image, #code-image {
+	display: none;
+}
+
+
+/* ===================
+		PROJECTS
+====================== */
+
 .projects {
-	background: #ECF0F1;
+	background: linear-gradient(to bottom, #eff4fd, #e5f2e5);
+	padding: 20px 0;
+	/* text-align: center; */
 }
-/* E N D  P R O J E C T  */
 
-/* A B O U T  M E  */
-.about-me {
-	background: #86E2D5;
+p {
+	text-align: left;
 }
-/* E N D  A B O U T  M E  */
+
+h1.project-header {
+	padding-top: 25px;
+}
+
+.project-sub-head {
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+img.photos {
+	margin: 0 auto;
+	display: block;
+	width: 255px;
+	height: 255px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+img.photos:hover {
+	background: #d0dff9;
+	opacity: 1;
+}
+
+.built-with {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+
+/* ==================
+B U T T O N  S T Y L E
+========================*/
+
+.buttons {
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.button-project, .button-github {
+	position: relative;
+}
+
+.button-project {
+	background-color: #FFC0CB;
+}
+
+.button-github {
+	background-color: #2ECC71;
+}
+
+/* =====================
+=====================
+ABOUT ME */
+
+.bio {
+	background: linear-gradient(to bottom, #e5f2e5, #ffe9ec);
+	font-size: 18px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	width: 100%;
+}
+
+.jane {
+	background: url('../assets/images/portjane.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	float:left;
+	/* margin: 15px; */
+	height: 300px;
+	/* padding: 10px 15px; */
+	width: 300px;
+}
+
+.bio-stuff {
+	display: inline;
+	padding-left: 15px;
+}
+
+.bio-story, .skills {
+	text-align: justify;
+	position: relative;
+	padding-left: 15px;
+}
+
+.bio-story2 {
+	float: left;
+	margin-left: 10px;
+}
+
+.reach-me {
+	padding: 20px 0;
+	text-align: center;
+}
+
+h4 {
+	padding: 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.contact {
+	padding-right: 35px;
+	width: 65px;
+	margin: 0 auto;
+	transition: transform 1s ease-out;
+}
+
+.contact:hover {
+	transform: translate(0, -10px);
+}
+
+a.reach-me:hover {
+	opacity: 0.3px;
+	background-color:#ffd1dc
+}
+
+.arrow {
+	margin: 35px 0;
+	padding: 30px 0;
+	text-align: center;
+	position: relative;
+}
+
+.up {
+	background-color: #E08283;
+	border: 1px solid #ccc9c9;
+  padding: 10px;
+	border-radius: 3px;
+  box-shadow: 0px 1px 0px #e8e7e7;
+  font-size: 15px;
+  cursor: pointer;
+	position: relative;
+}
+
+a.up {
+	color: #000000;
+}
