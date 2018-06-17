@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/* ======================
-========= BODY ==========
-=========================
-*/
+/* =================
+			G L O B A L
+==================== */
 
 body {
 	box-sizing: border-box;
-	font-family: "Open Sans", serif;
+	font-family: "Pontano Sans", sans-serif;
+	font-size: 16px;
 	margin: 0 auto;
 }
 
@@ -19,27 +17,25 @@ a:link {
 	text-decoration: none;
 }
 
-button {
-	border: none;
-	width: 150px;
-}
-
 button:hover {
 	background-color: #ECF0F1;
 }
 
-h1, h4, h5 {
-	 font-family: "Georgia", sans-serif;
+h1 {
 	 text-transform: uppercase;
 }
 
-h1 {
-	letter-spacing: 4px;
+.headline {
+	padding-top: 25px;
+	letter-spacing: 10px;
+	padding: 15px 0;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4),
+							 0px 5px 10px rgba(0, 0, 0, 0.1),
+							 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-h4, h5 {
-	letter-spacing: 3px;
-}
 
 /* ======================
 ===== LANDING PAGE ======
@@ -49,168 +45,108 @@ h4, h5 {
 .hero {
 	height: 100vh;
 	width: 100%;
-	background: url('../assets/images/donuts.jpg') no-repeat center center;
-	background-size: cover;
-	display: flex;
-	opacity: 0.9;
+	background: silver;
 	position: relative;
+	background: linear-gradient(to top, #eff4fd, #b1caf6);
 }
 
-h1.head, h2.sub-head {
-	/* color: #FFFAFA; */
+.titles {
+	padding-top: 25%;
+	text-align: center;
+}
+
+h1.hero-head {
+	letter-spacing: 20px;
+	font-size: 4.5em;
+	font-weight: bold;
+}
+
+h2.hero-sub-head {
+	padding-top: 25px;
+	letter-spacing: 5px;
+}
+
+h1.hero-head, h2.hero-sub-head {
 	color: #ECECEC;
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4),
+							 0px 5px 10px rgba(0, 0, 0, 0.1),
+							 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-h1.head {
-	float: left;
-	font-size: 65px;
-	letter-spacing: 3px;
-	margin-top: 4%;
-	margin-left: 3%;
-	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
-	position: relative;
-	/* bottom: 30px; */
+.icon {
+	width: 10%;
 }
 
-h2.sub-head {
-	top: 78vh;
-	font-size: 40px;
-	padding-right: 35px;
-	position: absolute;
-	right: 0;
-	text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
-}
-
-font.cake {
+.cake-text {
 	font-family: "Emilys Candy", serif;
-	color: #FFC0CB;
+	color: #ffd2e8;
 }
 
-font.code {
+.code-text {
 	font-family: "Iceland", serif;
-	color: #2ECC71;
+	color: #00e500;
+	font-size: 1.25em;
 }
 
-/****
-** PROJECTS
-**/
-
-.project-column {
-	position: relative;
-	padding: 10px;
+#cake-image, #code-image {
+	display: none;
 }
+
+
+/* ===================
+		PROJECTS
+====================== */
 
 .projects {
-	background-color: #FFFFF0;
-	/* padding-bottom: 45px;
-	padding-top: 45px; */
-	width: 100%;
+	background: linear-gradient(to bottom, #eff4fd, #e5f2e5);
+	padding: 20px 0;
+	/* text-align: center; */
+}
+
+p {
+	text-align: left;
 }
 
 h1.project-header {
 	padding-top: 25px;
 }
 
-h3.project-sub-head {
-	font-family: "Georgia", sans-serif;
-	padding-top: 15px;
-	letter-spacing: 2px;
+.project-sub-head {
+	font-weight: bold;
+	letter-spacing: 4px;
 	text-align: center;
+	text-transform: uppercase;
+	padding-top: 15px;
 }
 
 img.photos {
+	margin: 0 auto;
 	display: block;
-	opacity: 1;
-	height: 275px;
-	width: 275px;
+	width: 255px;
+	height: 255px;
 	transition: .5s ease;
 	backface-visibility: hidden;
-	/* position: relative; */
 }
 
-.one-third:hover .photos {
-	background-color: #89C4F4;
-	opacity: 0.3;
-}
-
-.one-third:hover .technologies {
+img.photos:hover {
+	background: #d0dff9;
 	opacity: 1;
 }
 
-/* .photo-head {
-	padding-right: 55px;
-} */
-
-.built-hover {
-	width: 55%;
-	margin: 0 auto;
-	padding-right: 55px;
-	font-size: 16px;
-}
-
-.technologies {
-	text-align: center;
-	transition: .5 ease;
-	opacity: 0;
-	margin: 0 auto;
-	position: absolute;
-	top: 0;
-	transform: translateY(15%);
-}
-
-.hover-link {
-	color: #34495E;
-}
-
-.project-summary, .watch-hover, .burger-hover {
-	font-size: 16px;
-}
-
-/*
-Photomatic
-*/
-
-.photo-head {
-	padding-top: 45px;
-}
-
-.built-hover {
-	padding-left: 40px;
-}
-
-/*
-Watch This
-*/
-
-.watch-head {
-	margin-left: 55px;
-	padding-top: 50px;
-}
-
-.watch-hover {
-	padding-left: 40px;
-}
-
-img.watch {
-	padding-left: 30px;
-}
-
-/*
-Burger Head
-*/
-
-.burger-head {
-	padding-top: 45px;
+.built-with {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
 }
 
 
-
-/* Button Style */
+/* ==================
+B U T T O N  S T Y L E
+========================*/
 
 .buttons {
-	padding-left: 55px;
 	padding-bottom: 10%;
-	margin: 0 auto;
+	text-align: center;
 }
 
 .button-project, .button-github {
@@ -225,26 +161,16 @@ Burger Head
 	background-color: #2ECC71;
 }
 
-/***
-*** BIO
-**/
-
-.jp-bio {
-	max-width: 100%;
-}
+/* =====================
+=====================
+ABOUT ME */
 
 .bio {
-	background-color: #C5EFF7;
+	background: linear-gradient(to bottom, #e5f2e5, #ffe9ec);
 	font-size: 18px;
 	padding-top: 45px;
 	padding-bottom: 45px;
-	/* padding: 55px 110px; */
-	/* width: 100vw; */
-}
-
-.bio-header {
-	font-family: "Georgia", sans-serif;
-	letter-spacing: 3px;
+	width: 100%;
 }
 
 .jane {
@@ -276,27 +202,25 @@ Burger Head
 }
 
 .reach-me {
-	/* position: relative; */
-	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
 
+h4 {
+	padding: 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 .contact {
-	height: 45px;
-	padding-right: 10px;
-	width: 45px;
+	padding-right: 35px;
+	width: 65px;
 	margin: 0 auto;
+	transition: transform 1s ease-out;
 }
 
-.centerme {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-bottom: 45px;
-}
-
-.work {
-	text-align: center;
+.contact:hover {
+	transform: translate(0, -10px);
 }
 
 a.reach-me:hover {
@@ -305,6 +229,8 @@ a.reach-me:hover {
 }
 
 .arrow {
+	margin-top: 35px;
+	padding-top: 30px 0;
 	text-align: center;
 	position: relative;
 }
