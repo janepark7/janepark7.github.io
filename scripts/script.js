@@ -10,4 +10,8 @@ $(document).ready(function() {
 		$("span").fadeIn(1000);
 		$(".icon").fadeOut(1000);
 	});
+	$(".up").click(function() {
+		$('html, body').animate({ "scrollTop": $("#hero").offset().top }, 1000);
+		return false;
+	});
 });
