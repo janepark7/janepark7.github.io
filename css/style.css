@@ -4,7 +4,6 @@
 
 body {
 	box-sizing: border-box;
-	font-family: "Pontano Sans", sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 }
@@ -23,6 +22,11 @@ button:hover {
 
 h1 {
 	 text-transform: uppercase;
+	 margin: 0;
+}
+
+nav {
+	background: #001e49;
 }
 
 .headline {
@@ -47,7 +51,6 @@ h1 {
 	width: 100%;
 	background: silver;
 	position: relative;
-	background: linear-gradient(to top, #eff4fd, #92b4f2);
 }
 
 .titles {
@@ -98,7 +101,6 @@ h1.hero-head, h2.hero-sub-head {
 ====================== */
 
 .projects {
-	background: linear-gradient(to bottom, #eff4fd, #e5f2e5);
 	padding: 20px 0;
 	/* text-align: center; */
 }
@@ -166,7 +168,6 @@ B U T T O N  S T Y L E
 ABOUT ME */
 
 .bio {
-	background: linear-gradient(to bottom, #e5f2e5, #ffe9ec);
 	font-size: 18px;
 	padding-top: 45px;
 	padding-bottom: 45px;
