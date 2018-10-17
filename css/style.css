@@ -58,31 +58,35 @@ div {
 .main {
 	margin: 0 auto;
 	background: yellow;
+	position: relative;
+}
+
+img, .daily {
+	height: 50%;
+	width: 50%;
 }
 
 img {
-	height: 40%;
-	width: 40%;
+	margin: 0 auto;
 }
+
 .project {
-	position: relative;
 	padding: 10px;
 	background: white;
 	border-color: black;
 	border-style: solid;
+}
 
+h1 {
+	text-align: center;
 }
 
 .daily {
-	height: auto;
-	width: 50%;
-	text-align: center;
 	background: pink;
 	position: absolute;
-	border-style: solid;
-	border-color: black;
-	padding-top: 150px;
 
+	/* padding-top: 150px; */
+	margin: 0;
 }
 
 .titles {
