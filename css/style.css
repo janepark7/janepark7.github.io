@@ -16,10 +16,6 @@ a:link {
 	text-decoration: none;
 }
 
-button:hover {
-	background-color: #ECF0F1;
-}
-
 h1 {
 	 text-transform: uppercase;
 	 margin: 0;
@@ -55,54 +51,34 @@ div {
 =========================
 */
 
-.main {
-	margin: 0 auto;
-	background: yellow;
+ /* .project {
 	position: relative;
-}
-
-img, .daily {
-	height: 50%;
-	width: 50%;
-}
-
-img {
-	margin: 0 auto;
-}
-
-.project {
-	padding: 10px;
 	background: white;
 	border-color: black;
 	border-style: solid;
-}
+	height: 50%;
+	width: 50%;
+} */
 
 h1 {
 	text-align: center;
 }
 
-.daily {
-	background: pink;
-	position: absolute;
 
-	/* padding-top: 150px; */
-	margin: 0;
+ .daned {
+	background: #00695c;
 }
 
-.titles {
-	padding-top: 25%;
-	text-align: center;
+.punchup {
+	background: #c62828;
 }
 
-h1.hero-head {
-	letter-spacing: 20px;
-	font-size: 4.5em;
-	font-weight: bold;
+.dailyux {
+	background: #f9a825;
 }
 
-h2.hero-sub-head {
-	padding-top: 25px;
-	letter-spacing: 5px;
+.photo {
+	background: #ad1457;
 }
 
 h1.hero-head, h2.hero-sub-head {
@@ -177,30 +153,7 @@ img.photos:hover {
 	font-weight: bold;
 }
 
-
-/* ==================
-B U T T O N  S T Y L E
-========================*/
-
-.buttons {
-	padding-bottom: 10%;
-	text-align: center;
-}
-
-.button-project, .button-github {
-	position: relative;
-}
-
-.button-project {
-	background-color: #FFC0CB;
-}
-
-.button-github {
-	background-color: #2ECC71;
-}
-
-/* =====================
-=====================
+/*
 ABOUT ME */
 
 .bio {
