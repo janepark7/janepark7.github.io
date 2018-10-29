@@ -6,6 +6,7 @@ body {
 	box-sizing: border-box;
 	margin: 0 auto;
 	font-family: "Quicksand", sans-serif;
+	background: linear-gradient(#e3f2fd, #c5cae9);
 }
 
 a {
@@ -95,7 +96,7 @@ div.right {
 	font-size: 35px;
 	height: 55vh;
 	padding: 50px;
-	/* background: linear-gradient(#e3f2fd, #c5cae9); */
+
 }
 
 /* ======================
