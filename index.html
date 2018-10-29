@@ -7,7 +7,8 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
 	<link rel="stylesheet" types="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/cssresets.css"/>
-	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href="css/materialize.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 	<script type="text/javascript">
@@ -26,30 +27,36 @@
 <!-- ***** NAV BAR ****  -->
 <nav>
 	<div class="container">
-		<ul>
-			<li><a href="/" class="nav-link">Jane Park</a></li>
-		</ul>
-		<ul class="right">
-			<li><a href="/" class="subnav-link">Projects</a></li>
-			<li><a href="about.html" class="subnav-link">About Me </a></li>
-		</ul>
+		<div class="nav-link">
+			<a href="index.html" class="home">Jane Park</a>
+			<a href="index.html" class="subnav-link">Projects</a>
+			<a href="about.html" class="subnav-link me">About Me </a>
+		</div>
 	</div>
 </nav>
 <!-- ************ -->
 
 <!-- INTRO -->
-<div class=" container intro">
-	Jane Park is a <u>UX Designer</u> + Developer.
+<div class="container intro">
+	<div class="row">
+		<div class="col-lg-12 col-sm-12">
+			<p>
+				Jane Park is a <u>UX Designer</u> + Developer.
+			</p>
+			<p>
+				I am a former pastry chef / baker turned UX Designer. I create clean and simple designs to make the human experience easy and accessible.
+			</p>
+		</div>
+	</div>
 </div>
 
 
 <!-- === MAIN PAGE / PROJECTS === -->
 <div class="main">
 	<div class="row">
-		<div class="col s6 portfolio punchup">
+		<div class="col-lg-6 col-sm-6 portfolio punchup">
 			<a href="punchup.html" target="_blank">
 				<h2>Punch Up</h2>
-			</a>
 			<div class="description">
 				A community writing web app
 			</div>
@@ -64,8 +71,9 @@
 			<h1>
 				<i class="fa fa-pencil"></i>
 			</h1>
+			</a>
 		</div>
-		<div class="col s6 portfolio dailyux">
+		<div class="col-lg-6 col-sm-6 portfolio dailyux">
 			<a href="dailyux.html" target="_blank">
 				<h2>Daily UX</h2>
 				</a>
@@ -74,20 +82,23 @@
 					<li>
 						UX Design & Research
 					</li>
+					<li>
+						Prototyping
+					</li>
 				</div>
 			<h1>
 				<i class="fa fa-sitemap"></i>
 			</h1>
 
 		</div>
-		<div class="col s6 portfolio daned">
+		<div class="col-lg-6 col-sm-6 portfolio daned">
 			<a href="daneds.html" target="_blank">
 				<h2>Daniel Edelman</h2>
 			</a>
-			<div class="description">Portfolio site created for video editor, Daniel Edelman</div>
+			<div class="description">Portfolio page for video editor, Daniel Edelman</div>
 			<div class="list">
 				<li>
-					Customized WordPress portfolio
+					UI/UX Design + Research
 				</li>
 				<li>
 					Front-End Development
@@ -97,7 +108,7 @@
 				<i class="fa fa-film"></i>
 			</h1>
 		</div>
-		<div class="col s6 portfolio photo">
+		<div class="col-lg-6 col-sm-6 portfolio photo">
 			<a href="photo.html" target="_blank">
 				<h2>Photomatic</h2>
 			</a>
@@ -121,6 +132,9 @@
 
 </div>
 	<!-- *~*~*~ Javascript Tag  *~*~*~ -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+					integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+					crossorigin="anonymous"></script>
 		<script src="http://code.jquery.com/jquery-3.3.1.js"
 	  				integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	  				crossorigin="anonymous"></script>
