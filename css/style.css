@@ -21,14 +21,7 @@ a:link {
 	text-decoration: none;
 }
 
-h1 {
-	margin: 0;
-	padding: 0;
-	color: #ffffff;
-	text-align: center;
-}
-
-h2 {
+.project-title {
 	 margin: 0;
 	 text-align: center;
 	 /* text-decoration: underline; */
@@ -173,10 +166,10 @@ div.right {
 	text-align: left;
 }
 
-/* HOVER EFFECTS  */
-/* .visit-hover {
-	background:
-} */
+.icon {
+	color: #ffffff;
+	text-align: center;
+}
 
 /* ------------------ */
 
