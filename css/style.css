@@ -6,7 +6,7 @@ body {
 	box-sizing: border-box;
 	margin: 0 auto;
 	font-family: "Quicksand", sans-serif;
-	background: linear-gradient(#e3f2fd, #c5cae9);
+	background: linear-gradient(#e3f2fd, #c5cae9) no-repeat;
 }
 
 a {
@@ -64,7 +64,7 @@ nav {
 	color: #fffde7;
 	font-size: 45px;
 	font-weight: bold;
-	padding-top: 3px;
+	padding-top: 8px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -112,7 +112,7 @@ div.right {
 }
 
 .portfolio:hover {
-	transition: 0.3s ease;
+	transition: 0.5s ease;
 	background: #001e49;
 }
 
