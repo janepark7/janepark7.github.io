@@ -5,7 +5,7 @@
 body {
 	box-sizing: border-box;
 	margin: 0 auto;
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	background: linear-gradient(#e3f2fd, #c5cae9) no-repeat;
 }
 
@@ -21,12 +21,17 @@ a:link {
 	text-decoration: none;
 }
 
+h1 {
+	font-family: 'Oxygen', sans-serif;
+}
+
 h3 {
+	font-family: 'Oxygen', sans-serif;
 	text-align: center;
 	padding-top: 30px;
 }
 
-li {
+.list-items {
 	padding-top: 5px;
 	padding-left: 7em;
 }
@@ -45,40 +50,43 @@ i {
 =========================
 */
 
-nav {
+.navbar {
 	font-size: 30px;
-	background: #001e49;
-	padding: 8px 0;
+	background: #001e49 !important;
 }
 
+.nav-link {
+	color: #fffde7 !important;
+}
+
+.project:hover, .me:hover, .home:hover {
+	transition: 0.5s ease;
+	color: #ff748c !important;
+}
+
+button.navbar-toggler {
+	border-style: dotted !important;
+	border-color: #00ACBA !important;
+}
 
 .subnav-link {
-	padding-top: 15px;
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	float: right;
+
 }
 
 .home {
-	color: #fffde7;
+	color: #fffde7 !important;
 	font-size: 45px;
-	font-weight: bold;
-	padding-top: 8px;
+	/* font-weight: bold; */
+	/* padding-top: 8px; */
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
 
-.home:hover,
-.subnav-link:hover {
-	transition: 0.3s ease;
-	border-bottom: 2px dotted #ffffff;
-	padding: 6px 0;
-}
 
-.me {
-	margin-right: 25px;
-}
 
 div.right {
 	text-align: right;
@@ -112,7 +120,7 @@ div.right {
 }
 
 .portfolio:hover {
-	transition: 0.5s ease;
+	transition: 0.6s ease;
 	background: #001e49;
 }
 
