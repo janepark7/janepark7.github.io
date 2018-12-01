@@ -31,11 +31,6 @@ h3 {
 	padding-top: 30px;
 }
 
-.list-items {
-	padding-top: 5px;
-	padding-left: 7em;
-}
-
 i {
 	padding-bottom: 45px;
 }
@@ -115,6 +110,10 @@ div.right {
 =========================
 */
 
+.main {
+	font-family: "Quicksand", sans-serif;
+}
+
 .portfolio {
 	height: 25%;
 }
@@ -122,11 +121,6 @@ div.right {
 .portfolio:hover {
 	transition: 0.6s ease;
 	background: #001e49;
-}
-
-.projects {
-	padding: 20px 0;
-	/* text-align: center; */
 }
 
  .daned {
@@ -158,6 +152,7 @@ div.right {
 	color: #ffffff;
 	font-size: 20px;
 	text-align: left;
+	margin-left: 30%;
 }
 
 .icon {
