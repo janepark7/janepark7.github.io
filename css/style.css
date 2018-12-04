@@ -23,6 +23,8 @@ a:link {
 
 h1 {
 	font-family: 'Oxygen', sans-serif;
+	letter-spacing: 3px;
+	font-weight: bold;
 }
 
 h3 {
@@ -179,3 +181,22 @@ div.right {
 /* ===================
 		PROJECTS
 ====================== */
+
+/* PUNCH UP  */
+
+.research {
+	list-style-type: disc;
+}
+
+.persona1, .persona2 {
+	width: 40%;
+	height: 55%;
+}
+
+.persona {
+	position: relative;
+}
+
+.method {
+	position: relative;
+}
