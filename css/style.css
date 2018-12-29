@@ -6,6 +6,9 @@ body {
 	box-sizing: border-box;
 	margin: 0 auto;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-index {
 	background: linear-gradient(#e3f2fd, #c5cae9) no-repeat;
 }
 
@@ -21,15 +24,17 @@ a:link {
 	text-decoration: none;
 }
 
+
+h1, h2, h3, h4, h5 {
+	font-family: "Merriweather", sans-serif;
+}
+
 h1 {
-	font-family: 'Oxygen', sans-serif;
 	letter-spacing: 3px;
 	font-weight: bold;
 }
 
 h3 {
-	font-family: 'Oxygen', sans-serif;
-	text-align: center;
 	padding-top: 30px;
 }
 
@@ -40,6 +45,10 @@ i {
 .copyright {
 	text-align: center;
 	padding: 20px;
+}
+
+h4 {
+	margin: 0;
 }
 
 /* ======================
@@ -61,29 +70,24 @@ i {
 	color: #ff748c !important;
 }
 
-button.navbar-toggler {
-	border-style: dotted !important;
-	border-color: #00ACBA !important;
+.home, .subnav-link {
+	font-family: "Merriweather", sans-serif;
 }
 
 .subnav-link {
 	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
+	letter-spacing: 2px;
 	float: right;
-
 }
 
 .home {
 	color: #fffde7 !important;
 	font-size: 45px;
+	font-weight: lighter;
 	/* font-weight: bold; */
 	/* padding-top: 8px; */
-	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
-
-
 
 div.right {
 	text-align: right;
@@ -103,18 +107,18 @@ div.right {
 	line-height: 1.25em;
 }
 
+.jane-header {
+	font-weight: lighter;
+}
+
 .p2 {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 /* ======================
 ===== PROJECTS SECTION ======
 =========================
 */
-
-.main {
-	font-family: "Quicksand", sans-serif;
-}
 
 .portfolio {
 	height: 25%;
@@ -125,7 +129,7 @@ div.right {
 	background: #001e49;
 }
 
- .daned {
+ .femme {
 	background: #00695c;
 }
 
@@ -133,7 +137,7 @@ div.right {
 	background: #c62828;
 }
 
-.dailyux {
+.daned {
 	background: #f9a825;
 }
 
@@ -182,15 +186,67 @@ div.right {
 		PROJECTS
 ====================== */
 
-/* PUNCH UP  */
+body.project-body {
+	background-color: #ffffff !important;
+}
+
+.project-header {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+}
+
+.underline {
+	padding-top: 8px;
+	border-bottom: 1px solid #757575;
+}
+
+.underline-header {
+	border-bottom: 3px solid #00695c;
+}
+
+.content {
+	font-size: 20px;
+}
+
+.project-description {
+	font-size: 28px;
+	color: #323232;
+}
+
+/* .method {
+	letter-spacing: 1px;
+	font-size: 24px;
+} */
+
+.research-sub-heads {
+	color: #757575;
+	font-weight: lighter;
+	letter-spacing: 2.5px;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+/* ===============================
+PUNCH UP
+=============================== */
+
+.punch-head {
+	font-family: "Rokkitt", sans-serif;
+}
+
+.underline-punchup {
+	border-bottom: 1px solid #C90E0E;
+}
 
 .research {
 	list-style-type: disc;
 }
 
 .persona1, .persona2 {
-	width: 40%;
-	height: 55%;
+	width: 48%;
+	height: 60%;
+	text-align: center;
 }
 
 .persona {
@@ -199,4 +255,34 @@ div.right {
 
 .method {
 	position: relative;
+}
+
+/* change link color  */
+.tina-fey {
+	color: #5c6bc0;
+	font-weight: bold;
+}
+/* =====================
+DANIEL EDELMAN
+======================== */
+
+.dan-header {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.project-details {
+	font-size: 20px;
+}
+
+.details-header {
+	padding-bottom: 25px;
+}
+
+.summary-dan {
+	padding-bottom: 30px;
+}
+
+.under-dan {
+
 }
