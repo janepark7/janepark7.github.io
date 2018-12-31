@@ -228,6 +228,24 @@ body.project-body {
 	text-transform: uppercase;
 }
 /* ===============================
+PROJECT
+=============================== */
+
+.project-head {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.project-details {
+	font-size: 20px;
+}
+
+.details-header {
+	padding-bottom: 25px;
+}
+
+
+/* ===============================
 PUNCH UP
 =============================== */
 
@@ -266,23 +284,33 @@ PUNCH UP
 DANIEL EDELMAN
 ======================== */
 
-.dan-header {
-	padding-top: 40px;
-	padding-bottom: 30px;
-}
-
-.project-details {
-	font-size: 20px;
-}
-
-.details-header {
-	padding-bottom: 25px;
-}
-
 .summary-dan {
 	padding-bottom: 30px;
 }
 
-.under-dan {
+/* ============================
+FEMME TECH
+============================ */
 
+
+
+/* ============================
+PHOTOMATIC
+============================ */
+
+.photo-link {
+	color: #00bcd4;
+}
+
+.photo-link:hover {
+	color: #d81b60;
+	transition: 0.3s ease;
+}
+
+.summary-photo-details {
+	padding-bottom: 20px;
+}
+
+.summary-photo-research {
+	padding-top: 20px;
 }
