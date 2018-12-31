@@ -233,7 +233,7 @@ PROJECT
 
 .project-head {
 	padding-top: 40px;
-	padding-bottom: 30px;
+	letter-spacing: 1.5px;
 }
 
 .project-details {
@@ -242,6 +242,25 @@ PROJECT
 
 .details-header {
 	padding-bottom: 25px;
+}
+
+.research-header {
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+.takeaways {
+	padding-bottom: 25px;
+}
+
+.site-button {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+button:hover {
+	background-color: #1a237e;
+	transition: 0.5s ease;
 }
 
 
@@ -284,8 +303,12 @@ PUNCH UP
 DANIEL EDELMAN
 ======================== */
 
-.summary-dan {
+/* .summary-dan {
 	padding-bottom: 30px;
+} */
+
+.dan-website-button {
+	padding-bottom: 20px;
 }
 
 /* ============================
@@ -313,4 +336,32 @@ PHOTOMATIC
 
 .summary-photo-research {
 	padding-top: 20px;
+}
+
+.photo-img {
+	height: 40%;
+	width: 40%;
+	position: relative;
+}
+
+.photo-img-insta {
+	height: 35%;
+	width: 30%;
+}
+
+.photo-flow {
+	height: 90%;
+	width: 90%;
+}
+
+.user-flow {
+	color: #283593;
+	padding: 20px 0 10px 0;
+	letter-spacing: 1px;
+}
+
+.photomatic-landing {
+	height: 60%;
+	width: 60%;
+	padding-bottom: 30px;
 }
