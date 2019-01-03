@@ -27,15 +27,11 @@ a:link {
 
 h1, h2, h3, h4, h5 {
 	font-family: "Merriweather", sans-serif;
+	font-weight: lighter !important;
 }
 
 h1 {
 	letter-spacing: 3px;
-	font-weight: bold;
-}
-
-h3 {
-	padding-top: 30px;
 }
 
 i {
@@ -47,9 +43,6 @@ i {
 	padding: 20px;
 }
 
-h4 {
-	margin: 0;
-}
 
 /* ======================
 ===== NAV BAR ======
@@ -215,11 +208,6 @@ body.project-body {
 	color: #323232;
 }
 
-/* .method {
-	letter-spacing: 1px;
-	font-size: 24px;
-} */
-
 .research-sub-heads {
 	color: #757575;
 	font-weight: lighter;
@@ -233,7 +221,9 @@ PROJECT
 
 .project-head {
 	padding-top: 40px;
+	padding-bottom: 25px;
 	letter-spacing: 1.5px;
+	font-weight: lighter;
 }
 
 .project-details {
@@ -245,8 +235,8 @@ PROJECT
 }
 
 .research-header {
-	font-weight: lighter;
 	letter-spacing: 1px;
+	padding-bottom: 20px;
 }
 
 .takeaways {
@@ -303,9 +293,6 @@ PUNCH UP
 DANIEL EDELMAN
 ======================== */
 
-/* .summary-dan {
-	padding-bottom: 30px;
-} */
 
 .dan-website-button {
 	padding-bottom: 20px;
@@ -315,7 +302,85 @@ DANIEL EDELMAN
 FEMME TECH
 ============================ */
 
+.focus {
+	color: #00897b;
+}
 
+b.problem {
+	color: #3f51b5;
+}
+
+b.problem-2 {
+	color: #5c6bc0;
+}
+
+.event {
+	color: #ec407a;
+}
+
+.platforms {
+	height: 18%;
+	width: 18%;
+	padding: 0 10px;
+}
+
+.buzzwords {
+	height: 22%;
+	width: 22%;
+	padding: 20px 10px;
+}
+
+.tech-buzzwords {
+	height: 28%;
+	width: 28%;
+	padding: 0 10px;
+}
+
+.concept {
+	color: #43a047;
+}
+
+.ideating {
+	color: #4caf50;
+}
+.research {
+	color: #c62828;
+}
+
+.research-details {
+	padding: 10px 0;
+}
+
+.femme-persona {
+	height: 45%;
+	width: 60%;
+}
+
+.users {
+	color: #d32f2f;
+}
+
+.femme-sketch {
+	width: 40%;
+	height: 40%;
+}
+
+.no {
+	color: #ef5350;
+}
+
+.yes {
+	color: #66bb6a;
+}
+
+.design {
+	color: #f57c00;
+}
+
+.femme-wireframe {
+	height: 40%;
+	width: 45%;
+}
 
 /* ============================
 PHOTOMATIC
