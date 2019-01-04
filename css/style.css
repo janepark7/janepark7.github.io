@@ -343,6 +343,11 @@ b.problem-2 {
 .ideating {
 	color: #4caf50;
 }
+
+.design {
+	color: #66bb6a;
+}
+
 .research {
 	color: #c62828;
 }
@@ -370,16 +375,59 @@ b.problem-2 {
 }
 
 .yes {
-	color: #66bb6a;
+	color: #00e676;
 }
 
-.design {
-	color: #f57c00;
+.visual-design {
+	color: #304ffe;
 }
 
 .femme-wireframe {
 	height: 40%;
 	width: 45%;
+}
+
+.femme-design {
+	height: 40%;
+	width: 40%;
+}
+
+.femme-design-events {
+	height: 65%;
+	width: 45%;
+}
+
+.idea {
+	color: #ff8f00;
+}
+
+.impact {
+	color: #e91e63;
+}
+
+.requirement {
+	color: #757575;
+}
+
+.filter {
+	color: #388e3c;
+}
+
+.filter-search {
+	color: #9e9d24;
+}
+
+.filter-primary {
+	color: #90a4ae;
+}
+
+.search-spacing {
+	/* padding-top: 15px; */
+	padding-bottom: 25px;
+}
+
+.take-aways {
+	color: #00b0ff;
 }
 
 /* ============================
