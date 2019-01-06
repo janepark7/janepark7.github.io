@@ -122,7 +122,7 @@ div.right {
 	background: #001e49;
 }
 
- .femme {
+.femme {
 	background: #00695c;
 }
 
@@ -208,20 +208,15 @@ body.project-body {
 	color: #323232;
 }
 
-.research-sub-heads {
-	color: #757575;
+.research-sub-head {
 	font-weight: lighter;
-	letter-spacing: 2.5px;
-	font-size: 26px;
-	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	/* font-size: 26px; */
 }
-/* ===============================
-PROJECT
-=============================== */
 
 .project-head {
 	padding-top: 40px;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 	letter-spacing: 1.5px;
 	font-weight: lighter;
 }
@@ -236,7 +231,8 @@ PROJECT
 
 .research-header {
 	letter-spacing: 1px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	color: #455a64;
 }
 
 .takeaways {
@@ -253,36 +249,46 @@ button:hover {
 	transition: 0.5s ease;
 }
 
+.research-details {
+	padding: 15px 0;
+}
+
 
 /* ===============================
 PUNCH UP
 =============================== */
 
-.punch-head {
-	font-family: "Rokkitt", sans-serif;
+.backstory {
+	color: #546e7a;
 }
 
-.underline-punchup {
-	border-bottom: 1px solid #C90E0E;
+.approach {
+	color: #006064;
 }
 
-.research {
-	list-style-type: disc;
+.post-interview {
+	color: #d32f2f;
 }
 
-.persona1, .persona2 {
+.persona-images {
 	width: 48%;
 	height: 60%;
-	text-align: center;
+	padding-bottom: 15px;
 }
 
 .persona {
-	position: relative;
+	color: #6a1b9a;
 }
 
-.method {
-	position: relative;
+.competitive {
+	color: #00838f;
 }
+
+.punch-flow {
+	height: 70%;
+	width: 85%;
+}
+
 
 /* change link color  */
 .tina-fey {
@@ -306,11 +312,11 @@ FEMME TECH
 	color: #00897b;
 }
 
-b.problem {
+.problem {
 	color: #3f51b5;
 }
 
-b.problem-2 {
+.problem-2 {
 	color: #5c6bc0;
 }
 
@@ -352,10 +358,6 @@ b.problem-2 {
 	color: #c62828;
 }
 
-.research-details {
-	padding: 10px 0;
-}
-
 .femme-persona {
 	height: 45%;
 	width: 60%;
@@ -368,6 +370,7 @@ b.problem-2 {
 .femme-sketch {
 	width: 40%;
 	height: 40%;
+	padding-bottom: 20px;
 }
 
 .no {
@@ -375,7 +378,7 @@ b.problem-2 {
 }
 
 .yes {
-	color: #00e676;
+	color: #0288d1;
 }
 
 .visual-design {
@@ -383,6 +386,7 @@ b.problem-2 {
 }
 
 .femme-wireframe {
+	padding: 15px 0;
 	height: 40%;
 	width: 45%;
 }
@@ -399,6 +403,7 @@ b.problem-2 {
 
 .idea {
 	color: #ff8f00;
+	padding-top: 20px;
 }
 
 .impact {
