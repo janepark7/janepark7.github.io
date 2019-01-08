@@ -289,12 +289,29 @@ PUNCH UP
 	width: 85%;
 }
 
+.punch-wireframe {
+	height: 35%;
+	width: 45%;
+	padding: 5px 5px;
+}
+
+.punchup-wireframe {
+	height: 42%;
+	width: 30%;
+	padding: 5px 5px;
+}
+
+.mockups {
+	height: 48%;
+	width: 48%;
+}
 
 /* change link color  */
 .tina-fey {
 	color: #5c6bc0;
 	font-weight: bold;
 }
+
 /* =====================
 DANIEL EDELMAN
 ======================== */
@@ -352,6 +369,7 @@ FEMME TECH
 
 .design {
 	color: #66bb6a;
+	padding-top: 10px;
 }
 
 .research {
