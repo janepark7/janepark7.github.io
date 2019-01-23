@@ -341,6 +341,21 @@ PUNCH UP
 	width: 38%;
 }
 
+.mood-board {
+	height: 30%;
+	width: 25%;
+}
+
+.sketches {
+	color: #aa00ff;
+}
+
+.sites {
+	height: 30%;
+	width: 40%;
+}
+
+
 /* =====================
 DANIEL EDELMAN
 ======================== */
@@ -429,6 +444,7 @@ FEMME TECH
 }
 
 .visual-design {
+	padding-top: 25px;
 	color: #304ffe;
 }
 
