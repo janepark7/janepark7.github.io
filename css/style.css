@@ -26,7 +26,7 @@ a:link {
 
 
 h1, h2, h3, h4, h5 {
-	font-family: "Merriweather", sans-serif;
+	font-family: "Georgia", sans-serif;
 	font-weight: lighter !important;
 }
 
@@ -67,7 +67,8 @@ button {
 }
 
 .home, .subnav-link {
-	font-family: "Merriweather", sans-serif;
+	font-family: "Georgia", sans-serif;
+	font-weight: lighter;
 }
 
 .subnav-link {
@@ -79,10 +80,9 @@ button {
 .home {
 	color: #fffde7 !important;
 	font-size: 45px;
-	font-weight: lighter;
 	/* font-weight: bold; */
 	/* padding-top: 8px; */
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
 
 div.right {
@@ -95,7 +95,6 @@ div.right {
 */
 
 .intro {
-	/* font-family: "Times New Roman", sans-serif; */
 	font-size: 35px;
 	margin-top: 30px;
 	height: 55vh;
@@ -620,4 +619,9 @@ ABOUT ME
 
 .button-contacts {
 	padding-top: 20px;
+}
+
+.contact-link {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-right: 25px;
 }
