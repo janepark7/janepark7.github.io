@@ -102,9 +102,9 @@ div.right {
 	line-height: 1.25em;
 }
 
-.jane-header {
-	font-weight: lighter;
-	font-size: 35px;
+h1.jane-header {
+	font-weight: lighter !important;
+	font-size: 38px !important;
 	/* text-align: center; */
 	/* padding-bottom: 30px; */
 }
