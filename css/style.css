@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-	letter-spacing: 3px;
+	letter-spacing: 2.5px;
 }
 
 i {
@@ -103,10 +103,7 @@ div.right {
 }
 
 h1.jane-header {
-	font-weight: lighter !important;
 	font-size: 38px !important;
-	/* text-align: center; */
-	/* padding-bottom: 30px; */
 }
 
 .intro-icon {
