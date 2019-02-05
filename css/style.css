@@ -71,6 +71,10 @@ button {
 	font-weight: lighter;
 }
 
+.project {
+	padding-right: 25px;
+}
+
 .subnav-link {
 	font-size: 18px;
 	letter-spacing: 2px;
