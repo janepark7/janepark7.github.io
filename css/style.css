@@ -43,9 +43,6 @@ i {
 	padding: 20px;
 }
 
-button {
-	margin: 5px !important;
-}
 
 /* ======================
 ===== NAV BAR ======
@@ -144,6 +141,43 @@ h1.jane-header {
 }
 
 /* ======================
+==== BOTTOM MENU  =======
+========================= */
+
+.bottom-menu {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+/* .home-icon {
+	padding-right: 10px;
+} */
+
+.home-link {
+	background-color: #80cbc4;
+	padding: 20px;
+}
+
+.color-link {
+	color: #212121 !important;
+}
+
+.home-link:hover,
+.next-link:hover, .color-link:hover {
+	background: #001e49;
+	color: #fffde7 !important;
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+
+.next-link {
+	float: right;
+	background-color: #ffc107;
+	color: #212121;
+	padding: 20px 30px;
+}
+
+/* ======================
 ===== PROJECTS SECTION ======
 =========================
 */
@@ -234,8 +268,8 @@ body.project-body {
 }
 
 .underline {
-	padding-top: 8px;
-	border-bottom: 1px solid #757575;
+	padding-top: 10px;
+	border-top: 1px dotted #757575;
 }
 
 .underline-header {
@@ -350,8 +384,12 @@ PUNCH UP
 }
 
 .mockups {
-	height: 48%;
-	width: 48%;
+	height: 49%;
+	width: 49%;
+}
+
+.design-detail {
+	padding: 25px 0;
 }
 
 /* change link color  */
@@ -370,7 +408,7 @@ PUNCH UP
 	width: 70%;
 }
 
-.info-arch {
+.research-header {
 	color: #d81b60;
 }
 
@@ -431,9 +469,12 @@ PUNCH UP
 DANIEL EDELMAN
 ======================== */
 
-
 .dan-website-button {
 	padding-bottom: 20px;
+}
+
+.danvid {
+	padding-bottom: 30px;
 }
 
 /* ============================
