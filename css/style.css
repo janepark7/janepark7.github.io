@@ -55,7 +55,7 @@ i {
 }
 
 .nav-link {
-	color: #ffb74d !important;
+	color: #ffccbc !important;
 }
 
 .project:hover, .me:hover, .home:hover {
@@ -109,6 +109,7 @@ div.right {
 
 h1.jane-header {
 	font-size: 38px !important;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .intro-icon {
@@ -182,11 +183,16 @@ h1.jane-header {
 =========================
 */
 
+.main {
+	color: #000000 !important;
+}
+
 .tile-links {
-	color: #ffffff;
+	color: #000000;
 }
 
 .tile-links:hover {
+	transition: 0.6s ease;
 	color: #ffffff;
 }
 
@@ -199,24 +205,24 @@ h1.jane-header {
 	background: #001e49;
 }
 
-.femme {
-	background: #00695c;
-}
-
 .punchup {
-	background: #c62828;
+	background: #c5cae9;
 }
 
 .daned {
-	background: #f9a825;
+	background: #bbdefb;
 }
 
+.femme {
+	background: #b2dfdb;
+}
+
+
 .photo {
-	background: #ad1457;
+	background: #b2ebf2;
 }
 
 .description {
-	color: #ffffff;
 	font-size: 25px;
 	text-align: center;
 	padding: 10px 0;
@@ -225,15 +231,18 @@ h1.jane-header {
 .list {
 	padding-top: 15px;
 	padding-bottom: 30px;
-	color: #ffffff;
 	font-size: 20px;
 	text-align: left;
 	margin-left: 30%;
 }
 
 .icon {
-	color: #ffffff;
 	text-align: center;
+}
+
+.description:hover, .list:hover, .icon:hover {
+	transition: 0.6s ease;
+	color: #ffffff;
 }
 
 .project-title {
@@ -243,6 +252,7 @@ h1.jane-header {
 	 padding-top: 50px;
 	 padding-bottom: 15px;
 	 letter-spacing: 2px;
+	 font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* .project-title:hover {
