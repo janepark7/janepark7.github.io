@@ -4,12 +4,7 @@
 
 body {
 	box-sizing: border-box;
-	margin: 0 auto;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-.body-index {
-	background: linear-gradient(#e3f2fd, #c5cae9) no-repeat;
+	/* margin: 0 auto; */
 }
 
 /* a {
@@ -25,15 +20,6 @@ a:link {
 }
 
 
-h1, h2, h3, h4, h5 {
-	font-family: "Georgia", sans-serif;
-	font-weight: lighter !important;
-}
-
-h1 {
-	letter-spacing: 3px;
-}
-
 i {
 	padding-bottom: 45px;
 }
@@ -47,18 +33,20 @@ button {
 	margin: 5px !important;
 }
 
+
+
 /* ======================
 ===== NAV BAR ======
 =========================
 */
 
 .navbar {
-	font-size: 30px;
-	background: #001e49 !important;
+	/* font-size: 30px;
+	background: #001e49 !important; */
 }
 
 .nav-link {
-	color: #fffde7 !important;
+	/* color: #fffde7 !important; */
 }
 
 .project:hover, .me:hover, .home:hover {
@@ -94,7 +82,7 @@ div.right {
 =========================
 */
 
-.intro {
+/* .intro {
 	font-size: 35px;
 	margin-top: 30px;
 	height: 55vh;
@@ -113,7 +101,6 @@ div.right {
 .chef {
 	height: 70px;
 	width: 70px;
-	/* padding-bottom: 10px; */
 }
 
 .cake {
@@ -131,40 +118,58 @@ div.right {
 .p2 {
 	padding-top: 25px;
 	font-size: 25px;
-}
+} */
 
 /* ======================
 ===== PROJECTS SECTION ======
 =========================
 */
 
-.tile-links {
-	color: #ffffff;
-}
-
 .tile-links:hover {
 	color: #ffffff;
 }
 
 .portfolio {
-	height: 25%;
+	width: 50%;
 }
 
-.portfolio:hover {
+/* .portfolio:hover {
 	transition: 0.6s ease;
 	background: #001e49;
-}
+} */
 
 .femme {
 	background: #00695c;
 }
 
-.punchup {
-	background: #c62828;
+/* .punchup {
+	background-image: url('../assets/images/punchup.png');
+} */
+
+.project-image {
+	height: 100%;
+	width: 100%;
+	display: block;
+	padding: 10px;
 }
 
-.daned {
-	background: #f9a825;
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .6s ease;
+	background: #1a237e;
+
+	
+}
+
+.portfolio:hover .overlay {
+	opacity: 1;
 }
 
 .photo {
@@ -192,14 +197,13 @@ div.right {
 	text-align: center;
 }
 
-.project-title {
+/* .project-title {
 	 margin: 0;
 	 text-align: center;
-	 /* text-decoration: underline; */
 	 padding-top: 50px;
 	 padding-bottom: 15px;
 	 letter-spacing: 2px;
-}
+} */
 
 /* .project-title:hover {
 	transition: 0.3s ease;
