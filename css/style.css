@@ -164,16 +164,10 @@ div.right {
 	opacity: 0;
 	transition: .6s ease;
 	background: #1a237e;
-
-	
 }
 
 .portfolio:hover .overlay {
 	opacity: 1;
-}
-
-.photo {
-	background: #ad1457;
 }
 
 .description {
