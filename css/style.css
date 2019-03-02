@@ -4,21 +4,16 @@
 
 body {
 	box-sizing: border-box;
-	/* margin: 0 auto; */
+	font-family: "Assistant", "Rubik", sans-serif, serif;
+	margin: 0 auto;
+	background: #eceff1;
+	color: #1a237e !important;
 }
 
-/* a {
-	color: #ffffff;
-}
-
-a:hover {
-	color: #ffffff;
-} */
 
 a:link {
 	text-decoration: none;
 }
-
 
 i {
 	padding-bottom: 45px;
@@ -33,44 +28,25 @@ button {
 	margin: 5px !important;
 }
 
-
-
 /* ======================
 ===== NAV BAR ======
 =========================
 */
 
 .navbar {
-	/* font-size: 30px;
-	background: #001e49 !important; */
+	background: #eceff1 !important;
 }
 
-.nav-link {
-	/* color: #fffde7 !important; */
-}
-
-.project:hover, .me:hover, .home:hover {
-	transition: 0.5s ease;
-	color: #ff748c !important;
-}
-
-.home, .subnav-link {
-	font-family: "Georgia", sans-serif;
-	font-weight: lighter;
+.home, .sub-links {
+	font-family: "Crimson Text", sans-serif;
 }
 
 .subnav-link {
-	font-size: 18px;
-	letter-spacing: 2px;
 	float: right;
 }
 
 .home {
-	color: #fffde7 !important;
-	font-size: 45px;
-	/* font-weight: bold; */
-	/* padding-top: 8px; */
-	letter-spacing: 2px;
+	color: #d50000 !important;
 }
 
 div.right {
@@ -78,56 +54,10 @@ div.right {
 }
 
 /* ======================
-===== INTRO ======
-=========================
-*/
-
-/* .intro {
-	font-size: 35px;
-	margin-top: 30px;
-	height: 55vh;
-	padding: 30px;
-	line-height: 1.25em;
-}
-
-.jane-header {
-	font-weight: lighter;
-}
-
-.intro-icon {
-	padding: 0 35px;
-}
-
-.chef {
-	height: 70px;
-	width: 70px;
-}
-
-.cake {
-	color: #ff80ab !important;
-}
-
-.arrow {
-	color: #00e676 !important;
-}
-
-.map {
-	color: #03a9f4 !important;
-}
-
-.p2 {
-	padding-top: 25px;
-	font-size: 25px;
-} */
-
-/* ======================
 ===== PROJECTS SECTION ======
 =========================
 */
 
-.tile-links:hover {
-	color: #ffffff;
-}
 
 .portfolio {
 	width: 50%;
@@ -136,7 +66,7 @@ div.right {
 /* .portfolio:hover {
 	transition: 0.6s ease;
 	background: #001e49;
-} */
+}
 
 .femme {
 	background: #00695c;
@@ -162,8 +92,12 @@ div.right {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	transition: .6s ease;
-	background: #1a237e;
+	transition: .4s ease;
+	background: #eceff1;
+}
+
+.center {
+	text-align: center;
 }
 
 .portfolio:hover .overlay {
