@@ -48,9 +48,13 @@ button {
 	color: #ad1457 !important;
 }
 
+.nav-link:hover {
+	color: #f06292 !important;
+	transition: 0.5s ease;
+}
+
 .project-link {
 	margin-right: 40px;
-
 }
 
 
@@ -75,18 +79,40 @@ div.right {
 	width: 50%;
 }
 
-/* .portfolio:hover {
+ /* .portfolio:hover {
 	transition: 0.6s ease;
 	background: #001e49;
-}
-
-.femme {
-	background: #00695c;
-}
-
-/* .punchup {
-	background-image: url('../assets/images/punchup.png');
 } */
+
+/* .femme {
+	background: #00695c;
+} */
+
+ /* .punch-up {
+	background: url('../assets/images/punchup.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.dan-ed {
+ background: url('../assets/images/daneds.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.femme-tech {
+ background: url('../assets/images/femme-tech.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.photomatic {
+ background: url('../assets/images/photomatic-project.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+} */
+
+
 
 .project-image {
 	height: auto;
@@ -124,6 +150,7 @@ div.right {
 	font-size: 25px;
 	text-align: center;
 	padding: 10px 0;
+	color: #3949ab  !important;
 }
 
 .list {
@@ -132,6 +159,7 @@ div.right {
 	font-size: 20px;
 	text-align: left;
 	margin-left: 30%;
+	color: #3949ab  !important;
 }
 
 .underline {
@@ -142,8 +170,6 @@ div.right {
 	color: #90a4ae;
 	text-align: center;
 }
-
-
 
 /* ------------------ */
 
