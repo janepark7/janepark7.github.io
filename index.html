@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/cssresets.css"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=Assistant|Crimson+Text|Noto+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
 	<script type="text/javascript">
 		  window._mfq = window._mfq || [];
@@ -26,17 +26,17 @@
 		<!-- ***** NAV BAR ****  -->
 		<nav class="navbar navbar-expand-lg navbar-light sticky-top">
 			<div class="container">
-					<a href="index.html" class="navbar-brand home"><h1>Jane Park</h1></a>
+					<a href="index.html" class="navbar-brand home">Jane Park</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     					<span class="navbar-toggler-icon"></span>
 				  	</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 		    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-		      <li class="nav-item active sub-links">
-		        <a class="nav-link project-link" href="index.html"><h3>Projects</h3></a>
+		      <li class="nav-item active sub-link">
+		        <a class="nav-link project-link" href="index.html">Projects</a>
 		      </li>
-		      <li class="nav-item active sub-links">
-		        <a class="nav-link about-links" href="about.html"><h3>About Me</h3></a>
+		      <li class="nav-item active sub-link">
+		        <a class="nav-link about-link" href="about.html">About Me</a>
 		      </li>
 		    </ul>
 			</div>
@@ -66,24 +66,45 @@
 		</div> -->
 
 		<!-- === MAIN PAGE / PROJECTS === -->
-		<div class="container">
+		<div class="container main">
 			<div class="row">
 				<div class="col-lg-6 col-sm-6 portfolio">
 					<a href="punchup.html" target="_blank" class="tile-links">
 						<img src="assets/images/punchup.png" alt="punch up mock" class="project-image"/>
 							<div class="overlay center">
-								<h2 class="punch-title">Punch Up</h2>
-								<h3 class="project-button">A writing community web app</h3>
+								<h2 class="project-title"><span class="underline">Punch Up</span></h2>
+									<div class="description">A writing community web app</div>
+										<div class="list">
+											<li class="list-items">
+												UI/UX Design + Research
+											</li>
+											<li class="list-items">
+												Prototyping
+											</li>
+										</div>
+										<h1 class="icon">
+											<i class="fa fa-pencil fa-lg"></i>
+										</h1>
 							</div>
 					</a>
 				</div>
-
 				<div class="col-lg-6 col-sm-6 portfolio">
 					<a href="daned.html" target="_blank" class="tile-links">
 						<img src="assets/images/daneds.png" alt="video editing images" class="project-image"/>
-							<div class="overlay">
-								<h2 class="project-title">Daniel Edelman</h2>
-								<button class="project-button">View Daniel Edelman</button>
+							<div class="overlay center">
+								<h2 class="project-title"><span class="underline">Daniel Edelman</span></h2>
+								<div class="description">Portfolio page for video editor, Daniel Edelman</div>
+									<div class="list">
+								<li class="list-items">
+									UI/UX Design
+								</li>
+								<li class="list-items">
+									Front-End Development
+								</li>
+							</div>
+						<h1 class="icon">
+							<i class="fa fa-film fa-lg"></i>
+						</h1>
 						</div>
 					</a>
 				</div>
@@ -92,9 +113,22 @@
 				<div class="col-lg-6 col-sm-6 portfolio">
 					<a href="femme.html" target="_blank" class="tile-links">
 						<img src="assets/images/femme-tech.png" alt="bosslady image" class="project-image"/>
-						<div class="overlay">
-							<h2 class="project-title">Femme Tech</h2>
-							<button class="project-button">View Femme Tech</button>
+						<div class="overlay center">
+							<h2 class="project-title"><span class="underline">Femme Tech</span></h2>
+								<div class="description">
+									A web app to help women in tech find local tech events
+								</div>
+								<div class="list">
+									<li class="list-items">
+										Participated in HexHacks Design Hackathon
+									</li>
+									<li class="list-items">
+										UX Design + Research
+									</li>
+								</div>
+						<h1 class="icon">
+							<i class="fa fa-map-marker fa-lg"></i>
+						</h1>
 						</div>
 					</a>
 				</div>
@@ -102,9 +136,22 @@
 				<div class="col-lg-6 col-sm-6 portfolio">
 					<a href="photo.html" target="_blank" class="tile-links">
 						<img src="assets/images/photomatic-project.png" alt="photo project" class="project-image"/>
-						<div class="overlay">
-							<h2 class="project-title">Photomatic</h2>
-							<button class="project-button">View Photomatic</button>
+						<div class="overlay center">
+							<h2 class="project-title"><span class="underline">Photomatic</span></h2>
+								<div class="description">
+									A photo sharing web app
+								</div>
+								<div class="list">
+									<li class="list-items">
+										UI/UX Design + Research
+									</li>
+									<li class="list-items">
+										Front-End Development
+									</li>
+								</div>
+						<h1 class="icon">
+							<i class="fa fa-camera-retro fa-lg"></i>
+						</h1>
 						</div>
 					</a>
 				</div>
