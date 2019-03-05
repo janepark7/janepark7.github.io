@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/cssresets.css"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Assistant|Crimson+Text|Noto+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 	<script type="text/javascript">
 		  window._mfq = window._mfq || [];
 		  (function() {
@@ -24,34 +24,40 @@
 	<body class="project-body">
 
 		<!-- ***** NAV BAR ****  -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-			<div class="container nav-link">
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+			<div class="container">
 					<a href="index.html" class="navbar-brand home">Jane Park</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     					<span class="navbar-toggler-icon"></span>
 				  	</button>
-			<div class="collapse navbar-collapse subnav-link" id="navbarTogglerDemo02">
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 		    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-		      <li class="nav-item active">
-		        <a class="project nav-link" href="index.html">Projects</a>
+		      <li class="nav-item active sub-link">
+		        <a class="nav-link project-link" href="index.html">Projects</a>
 		      </li>
-		      <li class="nav-item active">
-		        <a class="me nav-link" href="about.html">About Me</a>
+		      <li class="nav-item active sub-link">
+		        <a class="nav-link about-link" href="about.html">About Me</a>
 		      </li>
 		    </ul>
 			</div>
-		</div>
+			</div>
 		</nav>
 		<!-- ************ -->
-			<div class="container project-details">
+			<div class="container">
 				<h1 class="project-head">Photomatic</h1>
-				<h2 class="research-header">Project Details</h2>
-				<p class="summary-photo-details">
-					A photo sharing web app that allows users to upload, display, comment and like photos.
-					This was a collaborative project that me and my teammates created at New York Code + Design Academy.
-				</p>
-				<h4 class="research">Research</h4>
-				<p class="summary-photo-research">
+					<center>
+						<img src="assets/images/photomatic-project.png" class="project-img">
+					</center>
+					<dl class="row">
+						<dt class="col-sm-3 project-details">Project Details</dt>
+						<dd class="col-sm-9 project-description">
+							A photo sharing web app that allows users to upload, display, comment and like photos.
+							This was a collaborative project that me and my teammates created at New York Code + Design Academy.
+						</dd>
+					</dl>
+	<br>
+				<h4 class="research-header">Research</h4>
+				<p class="research-details">
 					To get started with this project, we observed other photo sharing sites such as
 					 <a class="photo-link" href="http://www.photobucket.com">Photobucket</a>, <a class="photo-link" href="http://wwwww.flickr.com">Flickr</a>, and <a class="photo-link" href="http:///www.instagram.com">Instagram</a>.
 				</p>
@@ -64,12 +70,12 @@
 				<!-- INSTAGRAM -->
 						<img src="assets/images/instagram.png" class="photo-img-insta"/>
 					</center>
-				<p>
+				<p class="research-details">
 					We took certain elements that were userful to develop our photo app. Such as adding a menu bar
 					to display the functional elements such as Photo Gallery, Upload, and Sign Out.
 				</p>
 
-					<h4 class="user-flow">User Flow</h4>
+					<h4 class="research-header">User Flow</h4>
 						<p class="research-details">
 							After observing other resources, I started mapping out the layout of each screen. It helped me regulate the
 							layout of the app. My goal was to create a simple and easy navigation for users to upload and browse photos.
@@ -78,7 +84,7 @@
 						</center>
 						</p>
 
-					<h4 class="development">Visual Design and Development</h4>
+					<h4 class="research-header">Visual Design and Development</h4>
 						<p class="research-details">
 							Observing some of the interfaces on the other photo apps, I've implemented a
 							CSS Boilerplate, <a href="http://www.skeleton.com" class="photo-link">Skeleton</a>. I've implemented a simple landing page with the contents of photos in the background.
@@ -86,14 +92,14 @@
 							to have them go to the photo gallery, upload photos and sign out of the page.
 						</p>
 
-					<h4 class="user-testing">User Testing</h4>
+					<h4 class="research-header">User Testing</h4>
 						<p class="research-details">
 							A few user testings (that were conducted) liked the simple and clean layout of the app.
 							The user tasks that were conducted (uploading photos, viewing photos, delete photos, like photos, comment on photos) was easy to navigate.
 						</p>
 
-					<h4 class="take-aways">Take Aways and Improvements</h4>
-						<p class="summary-photo-research">
+					<h4 class="research-header">Take Aways and Improvements</h4>
+						<p class="research-details">
 							For an MVP, I feel that me and my team accomplished our goal to create a photo sharing app that features upload, comment photos, like photos, and delete photos.
 							For an improvement, I would like to fine tune the layout and design, as of right now, the website is not entirely responsive and would like to try to clean it up so
 							it can be viewed on mobile or tablets. I would like to eventually, update from using Skeleton to Bootstrap to implement the responsive design.
@@ -104,6 +110,18 @@
 							<center>
 								<img src="assets/images/photomatic.png" class="photomatic-landing"/>
 							</center>
+
+							<div class="underline">
+								<center class="bottom-menu">
+									<a href="index.html">
+										<button class="home-link color-link">
+										Back to Homepage
+									</button>
+									</a>
+								</center>
+							</div>
+
+				</div>
 			</div>
 
 		<!-- ************ -->

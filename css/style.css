@@ -42,6 +42,11 @@ button {
 	font-size: 45px;
 }
 
+.home:hover {
+	color: #7986cb !important;
+	transition: 0.5s ease;
+}
+
 .nav-link {
 	font-family: "Assistant" !important;
 	font-size: 25px;
@@ -129,7 +134,7 @@ div.right {
 }
 
 .underline {
-	border-bottom: 1px solid #90a4ae;
+	border-top: 1px solid #90a4ae;
 }
 
 .icon {
@@ -143,65 +148,52 @@ div.right {
 		PROJECTS
 ====================== */
 
-body.project-body {
-	background-color: #ffffff !important;
+.research-header {
+	padding-top: 15px;
+	color: #b71c1c;
+	font-weight: lighter;
+	font-family: "Assistant", sans-serif;
 }
 
-.project-header {
-	padding-top: 25px;
-	padding-bottom: 20px;
-	letter-spacing: 15px;
-	text-transform: uppercase;
+.research-details {
+	font-size: 18px;
 }
 
-/* .underline {
+.project-details {
+	color: #b71c1c;
+	font-weight: lighter;
+	font-family: "Assistant", sans-serif;
+}
+
+.underline {
 	padding-top: 8px;
-	border-bottom: 1px solid #757575;
-} */
+	border-top: 1px solid #757575;
+}
 
 .underline-header {
-	border-bottom: 3px solid #00695c;
+	border-bottom: 1px solid #757575;
 }
 
-.content {
-	font-size: 20px;
-}
-
-.project-description {
-	font-size: 28px;
-	color: #323232;
-}
-
-.research-sub-head {
-	font-weight: lighter;
-	letter-spacing: 1.5px;
-	/* font-size: 26px; */
-}
 
 .project-head {
 	padding-top: 40px;
 	padding-bottom: 20px;
-	letter-spacing: 1.5px;
 	font-weight: lighter;
+	text-align: center;
 }
 
 .project-details {
 	font-size: 20px;
 }
 
+.project-description {
+	font-size: 18px;
+}
+
 .details-header {
 	padding-bottom: 25px;
 }
 
-.research-header {
-	letter-spacing: 1px;
-	padding-bottom: 10px;
-	color: #455a64;
-}
-
-.takeaways {
-	padding-bottom: 25px;
-}
 
 .site-button {
 	background-color: #4a148c;
@@ -213,13 +205,50 @@ body.project-body {
 	background: #001e49;
 }
 
-/* button:hover {
-	background-color: #1a237e;
-	transition: 0.5s ease;
+.project-img {
+	width: 50%;
+	height: 30%;
+	padding: 25px 0;
+}
+
+
+/* ======================
+==== BOTTOM MENU  =======
+========================= */
+
+.bottom-menu {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.home-link {
+	background-color: #80cbc4;
+	padding: 20px 30px;
+}
+
+.color-link {
+	color: #212121 !important;
+}
+
+.home-link:hover,
+.next-link:hover, .color-link:hover  {
+	background: #001e49;
+	color: #fffde7 !important;
+	cursor: pointer;
+	transition: 0.6s ease;
+}
+
+/* .color-link:hover {
+	color: #fffde7 !important;
+	transition: 0.6s ease;
+	cursor: pointer;
 } */
 
-.research-details {
-	padding: 15px 0;
+.next-link {
+	float: right;
+	background-color: #ffc107;
+	color: #212121;
+	padding: 20px 30px;
 }
 
 
@@ -227,17 +256,7 @@ body.project-body {
 PUNCH UP
 =============================== */
 
-.backstory {
-	color: #546e7a;
-}
 
-.approach {
-	color: #006064;
-}
-
-.post-interview {
-	color: #d32f2f;
-}
 
 .persona-images {
 	width: 48%;
@@ -245,13 +264,6 @@ PUNCH UP
 	padding-bottom: 15px;
 }
 
-.persona {
-	color: #6a1b9a;
-}
-
-.competitive {
-	color: #00838f;
-}
 
 .punch-flow {
 	height: 70%;
