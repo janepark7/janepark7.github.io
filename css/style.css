@@ -15,19 +15,6 @@ a:link {
 	text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-h1, h2, h3, h4, h5 {
-	font-family: "Georgia", sans-serif;
-	font-weight: lighter !important;
-}
-
-h1 {
-	letter-spacing: 2.5px;
-}
-
-=======
->>>>>>> ux
 i {
 	padding-bottom: 45px;
 }
@@ -37,6 +24,9 @@ i {
 	padding: 20px;
 }
 
+button {
+	margin: 5px !important;
+}
 
 /* ======================
 ===== NAV BAR ======
@@ -44,83 +34,12 @@ i {
 */
 
 .navbar {
-<<<<<<< HEAD
-	font-size: 30px;
-	background: #001e49 !important;
-}
-
-.nav-link {
-	color: #ffccbc !important;
-}
-
-.project:hover, .me:hover, .home:hover {
-	transition: 0.5s ease;
-	color: #ff748c !important;
-}
-
-a.project {
-	padding-right: 80px !important;
-}
-
-.home, .subnav-link {
-	font-family: "Georgia", sans-serif;
-	font-weight: lighter;
-}
-
-.project {
-	padding-right: 25px;
-}
-
-.subnav-link {
-	font-size: 18px;
-	letter-spacing: 2px;
-	float: right;
-=======
 	background: #eceff1 !important;
->>>>>>> ux
 }
 
 .home {
 	font-family: "Crimson Text", sans-serif;
 	font-size: 45px;
-<<<<<<< HEAD
-	/* font-weight: bold; */
-	/* padding-top: 8px; */
-	letter-spacing: 2px;
-}
-
-div.right {
-	text-align: right;
-}
-
-/* ======================
-===== INTRO ======
-=========================
-*/
-
-.intro {
-	font-size: 35px;
-	margin-top: 30px;
-	height: 60%;
-	padding: 25px;
-	line-height: 1.25em;
-}
-
-h1.jane-header {
-	font-size: 38px !important;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-.intro-icon {
-	padding: 0 45px;
-}
-
-
-.chef {
-	height: 70px;
-	width: 70px;
-	/* padding-bottom: 10px; */
-=======
 }
 
 .home:hover {
@@ -137,7 +56,6 @@ h1.jane-header {
 .nav-link:hover {
 	color: #f06292 !important;
 	transition: 0.5s ease;
->>>>>>> ux
 }
 
 .project-link {
@@ -149,52 +67,8 @@ h1.jane-header {
 	color: #1a237e !important;
 }
 
-<<<<<<< HEAD
-.p2 {
-	padding-top: 15px;
-	padding-bottom: 25px;
-	font-size: 25px;
-=======
 div.right {
 	text-align: right;
->>>>>>> ux
-}
-
-/* ======================
-==== BOTTOM MENU  =======
-========================= */
-
-.bottom-menu {
-	padding-top: 15px;
-	padding-bottom: 30px;
-}
-
-/* .home-icon {
-	padding-right: 10px;
-} */
-
-.home-link {
-	background-color: #80cbc4;
-	padding: 20px;
-}
-
-.color-link {
-	color: #212121 !important;
-}
-
-.home-link:hover,
-.next-link:hover, .color-link:hover {
-	background: #001e49;
-	color: #fffde7 !important;
-	transition: 0.6s ease;
-	cursor: pointer;
-}
-
-.next-link {
-	float: right;
-	background-color: #ffc107;
-	color: #212121;
-	padding: 20px 30px;
 }
 
 /* ======================
@@ -203,46 +77,13 @@ div.right {
 */
 
 .main {
-<<<<<<< HEAD
-	color: #000000 !important;
-}
-
-.tile-links {
-	color: #000000;
-}
-
-.tile-links:hover {
-	transition: 0.6s ease;
-	color: #ffffff;
-=======
 	margin-top: 5%;
->>>>>>> ux
 }
 
 .portfolio {
 	max-width: 100%;
 }
 
-<<<<<<< HEAD
-.punchup {
-	background: #c5cae9;
-}
-
-.daned {
-	background: #bbdefb;
-}
-
-.femme {
-	background: #b2dfdb;
-}
-
-
-.photo {
-	background: #b2ebf2;
-}
-
-.description {
-=======
 .project-image {
 	display: block;
 	padding: 5px;
@@ -277,7 +118,6 @@ div.right {
 
 .description {
 	/* color: #ffffff; */
->>>>>>> ux
 	font-size: 25px;
 	text-align: center;
 	padding: 10px 0;
@@ -293,25 +133,6 @@ div.right {
 	color: #3949ab !important;
 }
 
-<<<<<<< HEAD
-.icon {
-	text-align: center;
-}
-
-.description:hover, .list:hover, .icon:hover {
-	transition: 0.6s ease;
-	color: #ffffff;
-}
-
-.project-title {
-	 margin: 0;
-	 text-align: center;
-	 /* text-decoration: underline; */
-	 padding-top: 50px;
-	 padding-bottom: 15px;
-	 letter-spacing: 2px;
-	 font-family: 'Source Sans Pro', sans-serif;
-=======
 .underline {
 	border-top: 1px solid #90a4ae;
 }
@@ -319,7 +140,6 @@ div.right {
 .icon {
 	color: #90a4ae;
 	text-align: center;
->>>>>>> ux
 }
 
 /* ------------------ */
@@ -346,13 +166,8 @@ div.right {
 }
 
 .underline {
-<<<<<<< HEAD
-	padding-top: 10px;
-	border-top: 1px dotted #757575;
-=======
 	padding-top: 8px;
 	border-top: 1px solid #757575;
->>>>>>> ux
 }
 
 .underline-header {
@@ -468,12 +283,8 @@ PUNCH UP
 }
 
 .mockups {
-	height: 49%;
-	width: 49%;
-}
-
-.design-detail {
-	padding: 25px 0;
+	height: 48%;
+	width: 48%;
 }
 
 /* change link color  */
@@ -492,7 +303,7 @@ PUNCH UP
 	width: 70%;
 }
 
-.research-header {
+.info-arch {
 	color: #d81b60;
 }
 
@@ -553,12 +364,9 @@ PUNCH UP
 DANIEL EDELMAN
 ======================== */
 
+
 .dan-website-button {
 	padding-bottom: 20px;
-}
-
-.danvid {
-	padding-bottom: 30px;
 }
 
 /* ============================
@@ -769,10 +577,6 @@ ABOUT ME
 .contact-link {
 	font-weight: lighter;
 	color: #000000;
-}
-
-.work {
-	padding-bottom: 15px;
 }
 
 .contact-link:hover {
