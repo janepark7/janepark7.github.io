@@ -8,6 +8,8 @@ body {
 	margin: 0 auto;
 	background: #eceff1;
 	color: #1a237e !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -602,21 +604,25 @@ ABOUT ME
 	height: 75%;
 	width: 100%;
 	padding: 5px;
+	object-fit: cover;
 }
 
 .contact-link {
 	font-weight: lighter;
 	color: #000000;
+	/* padding-left: 20px; */
+	text-align: center;
 }
 
 .contact-link:hover {
 	transition: 0.6s ease;
 	color: #ffffff;
+
 }
 
 .contact-buttons {
-	height: 30%;
-	width: 30%;
+	height: 25%;
+	width: 25%;
 	cursor: pointer;
 }
 
