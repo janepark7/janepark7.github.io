@@ -606,7 +606,11 @@ ABOUT ME
 
 .contact-link {
 	font-weight: lighter;
-	color: #000000;
+	color: #1a237e !important;
+}
+
+i.icon-contacts {
+	color: #1a237e !important;
 }
 
 .contact-link:hover {
@@ -654,4 +658,5 @@ ABOUT ME
 .contact-link {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-right: 25px;
+	color:
 }
