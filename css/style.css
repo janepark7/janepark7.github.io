@@ -607,22 +607,23 @@ ABOUT ME
 	object-fit: cover;
 }
 
-.contact-link {
-	font-weight: lighter;
-	color: #000000;
-	/* padding-left: 20px; */
-	text-align: center;
+h5.contact-link {
+	color: #1a237e !important;
 }
 
-.contact-link:hover {
+i.icon-contacts {
+	color: #1a237e !important;
+	text-align: center;
+
+}
+
+h5.contact-link:hover {
 	transition: 0.6s ease;
-	color: #ffffff;
+	color: #ffffff !important;
 
 }
 
 .contact-buttons {
-	height: 25%;
-	width: 25%;
 	cursor: pointer;
 }
 
@@ -660,4 +661,5 @@ ABOUT ME
 .contact-link {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-right: 25px;
+	color:
 }
