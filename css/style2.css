@@ -94,6 +94,8 @@ div.right {
 
 
 /* IMAGES  */
+
+/* WIBO IMAGES */
 .img-project {
 	display: block;
 	margin-left: auto;
@@ -113,10 +115,17 @@ div.right {
 	width: 465px;
 }
 
-.click-view {
-	font-style: italic !important;
-	text-align: center;
-	font-size: 14px;
+/* PUNCH UP IMAGES  */
+
+.punch-research-image {
+	height: 320px;
+	width: 450px;
+}
+
+.compet-research-image {
+	height: 100px;
+	width: 300px;
+	padding-bottom: 5px;
 }
 
 /* TEXT */
@@ -125,6 +134,11 @@ div.right {
 	padding: 8px 0;
 }
 
+.click-view {
+	font-style: italic !important;
+	text-align: center;
+	font-size: 14px;
+}
 
 /* WIDTH, GRID, COLUMNS  */
 .project-details {
