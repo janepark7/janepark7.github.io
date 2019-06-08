@@ -114,6 +114,7 @@ div.right {
 	height: 300px;
 	width: 465px;
 }
+/* ========================= */
 
 /* PUNCH UP IMAGES  */
 
@@ -126,6 +127,29 @@ div.right {
 	height: 100px;
 	width: 300px;
 	padding-bottom: 5px;
+}
+/* =============== */
+
+/* FEMME TECH IMAGES */
+
+.platform-research-image {
+	height: 125px;
+	width: 215px;
+}
+
+.buzzword-research-image {
+	height: 210px;
+	width: 210px;
+}
+
+.persona-research-image {
+	height: 300px;
+	width: 550px;
+}
+
+.femme-research-image {
+	height: 320px;
+	width: 250px;
 }
 
 /* TEXT */
