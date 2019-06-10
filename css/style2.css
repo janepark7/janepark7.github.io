@@ -116,6 +116,14 @@ div.right {
 }
 /* ========================= */
 
+/* WIBO IMAGES  */
+
+.wibo-photo {
+	height: 235px;
+	width: 600px;
+	padding-bottom: 15px;
+}
+
 /* PUNCH UP IMAGES  */
 
 .punch-research-image {
