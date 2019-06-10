@@ -194,7 +194,10 @@ div.right {
 	color: #b71c1c;
 	font-weight: lighter;
 	font-family: "Assistant", sans-serif;
+	padding: 10px 0;
 }
+
+
 
 .underline {
 	padding-top: 8px;
@@ -219,6 +222,7 @@ div.right {
 
 .project-description {
 	font-size: 18px;
+	padding: 10px 0;
 }
 
 .details-header {
@@ -288,11 +292,11 @@ PUNCH UP
 
 
 
-.persona-images {
+/* .persona-images {
 	width: 48%;
 	height: 60%;
 	padding-bottom: 15px;
-}
+} */
 
 
 .punch-flow {
@@ -661,5 +665,9 @@ h5.contact-link:hover {
 .contact-link {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-right: 25px;
-	color:
+}
+
+/* ROUGH DRAFT STYLESHEET  */
+.research-container {
+	padding: 0 30px;
 }
