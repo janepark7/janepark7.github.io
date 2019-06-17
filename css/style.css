@@ -563,11 +563,14 @@ PHOTOMATIC
 	height: 40%;
 	width: 40%;
 	position: relative;
+	padding: 5px;
 }
 
 .photo-img-insta {
 	height: 35%;
 	width: 30%;
+	position: relative;
+	padding: 5px;
 }
 
 .photo-flow {

@@ -62,7 +62,7 @@ div.right {
 .header-project {
 	text-align: center;
 	padding: 25px 0;
-	/* font-weight: bold; */
+	font-weight: bold;
 }
 .sub-header-project {
 	font-weight: bold;
@@ -91,9 +91,30 @@ div.right {
 
 /* ====== */
 
+/* ================
+====== BUTTONS ====
+=================== */
+
+.site-button {
+	background-color: #ad1457;
+	color: #ffffff;
+}
+
+.site-button:hover {
+	background-color:#ff80ab;
+	color: #000000;
+}
 
 
 /* IMAGES  */
+
+.project-img {
+	width: 55%;
+	height: 30%;
+	padding: 30px 0;
+	margin: 0 auto;
+	display: block;
+}
 
 /* WIBO IMAGES */
 .img-project {
@@ -107,6 +128,8 @@ div.right {
 	padding: 0 8px;
 	height: 265px;
 	width: 315px;
+	display: block;
+	margin: 0 auto;
 }
 
 .mockup {
@@ -115,6 +138,15 @@ div.right {
 	width: 465px;
 }
 /* ========================= */
+
+/* ===========================
+======= DANIEL EDELMAN =======
+==============================  */
+
+/* .video-align {
+	display: block;
+	margin: 0 auto;
+} */
 
 /* WIBO IMAGES  */
 
@@ -135,6 +167,13 @@ div.right {
 	height: 100px;
 	width: 300px;
 	padding-bottom: 5px;
+}
+
+.styleguide {
+	height: 535px;
+	width: 375px;
+	display: block;
+	margin: 0 auto;
 }
 /* =============== */
 
@@ -160,6 +199,31 @@ div.right {
 	width: 250px;
 }
 
+/* =============== */
+
+/* PHOTOMATIC IMAGES  */
+
+.photo-img {
+	height: 300px;
+	width: 450px;
+}
+
+.photo-img-insta {
+	height: 450px;
+	width: 300px;
+	display: block;
+}
+
+.photo-flow {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	height: 550px;
+	width: 875px;
+}
+
+/* =============== */
+
 /* TEXT */
 
 .summary {
@@ -174,7 +238,7 @@ div.right {
 
 /* WIDTH, GRID, COLUMNS  */
 .project-details {
-	margin: 2% 10%;
+	margin: 2% 8%;
 	font-size: 18.5px;
 }
 
@@ -192,7 +256,8 @@ div.right {
 }
 
 #list-projects {
-	margin-top: 20px;
+	margin: 20px 0;
+	padding-bottom: 25px;
 	text-align: center;
 }
 
@@ -200,18 +265,101 @@ div.right {
 	display: inline;
 	text-align: center;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 25px;
 	padding: 0 10px;
 }
 
+
 a.bottom-list-links {
 	/* color: #ad1457 !important; */
-	color: #00897b !important;
+	color: #880e4f !important;
+
 }
 
 a.bottom-list-links:hover {
 	text-decoration: none;
 	/* color: #f06292 !important; */
-	color: #0097a7 !important;
+	color: #ff80ab !important;
 	transition: 0.5s ease;
+}
+
+/* ============================
+ABOUT ME
+============================ */
+
+.about-me {
+	padding: 25px 0;
+}
+
+.bio {
+	font-size: 18px;
+}
+
+.jane {
+	float:left;
+	height: 75%;
+	width: 100%;
+	padding: 5px;
+	object-fit: cover;
+}
+
+h5.contact-link {
+	color: #1a237e !important;
+}
+
+i.icon-contacts {
+	color: #1a237e !important;
+	text-align: center;
+
+}
+
+h5.contact-link:hover {
+	transition: 0.6s ease;
+	color: #ffffff !important;
+
+}
+
+.contact-buttons {
+	cursor: pointer;
+}
+
+.email {
+	background-color: #b388ff;
+}
+
+.resume {
+	background-color: #00b8d4;
+}
+
+.linkedin {
+	background-color: #448aff;
+}
+
+.contact-buttons:hover {
+	transition: 0.6s ease;
+	background: #001e49;
+}
+
+.bio {
+	padding-bottom: 30px;
+}
+
+.fa-envelope, .fa-file, .fa-linkedin {
+	color: white !important;
+	padding-top: 30px;
+	padding-right: 15px;
+}
+
+.button-contacts {
+	padding-top: 20px;
+}
+
+.contact-link {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-right: 25px;
+}
+
+/* ROUGH DRAFT STYLESHEET  */
+.research-container {
+	padding: 0 30px;
 }
