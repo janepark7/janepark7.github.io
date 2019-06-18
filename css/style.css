@@ -164,10 +164,6 @@ div.right {
 	color: #3949ab !important;
 }
 
-.underline {
-	border-top: 1px solid #90a4ae;
-}
-
 .icon {
 	color: #90a4ae;
 	text-align: center;
@@ -179,416 +175,271 @@ div.right {
 		PROJECTS
 ====================== */
 
-.research-header {
-	padding-top: 15px;
-	color: #b71c1c;
-	font-weight: lighter;
-	font-family: "Assistant", sans-serif;
-}
 
-.research-details {
-	font-size: 18px;
-}
 
-.project-details {
-	color: #b71c1c;
-	font-weight: lighter;
-	font-family: "Assistant", sans-serif;
+/* ============================ */
+
+/* THIS IS FROM STYLE2.CSS */
+
+/* = MAIN HEADERS = */
+.header-project {
+	text-align: center;
+	padding: 25px 0;
+	font-weight: bold;
+}
+.sub-header-project {
+	font-weight: bold;
 	padding: 10px 0;
+	color: #ad1457 !important;
+	font-weight: bold;
 }
 
-
-
-.underline {
-	padding-top: 8px;
-	border-top: 1px solid #757575;
-}
-
-.underline-header {
-	border-bottom: 1px solid #757575;
-}
-
-
-.project-head {
-	padding-top: 30px;
-	padding-bottom: 20px;
-	font-weight: lighter;
+.sub-center {
 	text-align: center;
 }
 
-.project-details {
-	font-size: 20px;
-}
-
-.project-description {
-	font-size: 18px;
+.second-header-project {
+	font-weight: bold;
 	padding: 10px 0;
+	letter-spacing: 1.5px;
 }
 
-.details-header {
-	padding-bottom: 25px;
+.underline {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #b0bec5;
+	/* line-height: 48px; */
 }
+
+.underline-page {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #b0bec5;
+	line-height: 48px;
+}
+
+/* ====== */
+
+/* ========================== */
+
+/* = MAIN HEADERS = */
+.header-project {
+	text-align: center;
+	padding: 25px 0;
+	font-weight: bold;
+}
+
+.second-header-project {
+	font-weight: bold;
+	padding: 10px 0;
+	letter-spacing: 1.5px;
+}
+
+.underline {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #b0bec5;
+	/* line-height: 48px; */
+}
+
+.underline-page {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #b0bec5;
+	line-height: 48px;
+}
+
+/* ====== */
+
+/* ================
+====== BUTTONS ====
+=================== */
 
 .site-button {
-	background-color: #4a148c;
+	background-color: #ad1457;
 	color: #ffffff;
 }
 
 .site-button:hover {
-	transition: 0.6s ease;
-	background: #001e49;
+	background-color:#ff80ab;
+	color: #000000;
 }
+/* ==================================== */
+
+/* IMAGES  */
 
 .project-img {
-	width: 50%;
+	width: 55%;
 	height: 30%;
 	padding: 30px 0;
+	margin: 0 auto;
+	display: block;
 }
 
-
-/* ======================
-==== BOTTOM MENU  =======
-========================= */
-
-.bottom-menu {
-	padding-top: 15px;
-	padding-bottom: 30px;
+/* WIBO IMAGES */
+.img-project {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
 }
 
-.home-link {
-	background-color: #80cbc4;
-	padding: 20px 30px;
+.research-image {
+	padding: 0 8px;
+	height: 265px;
+	width: 315px;
+	display: block;
+	margin: 0 auto;
 }
 
-.color-link {
-	color: #212121 !important;
+.mockup {
+	padding: 0 8px;
+	height: 290px;
+	width: 455px;
+	display: block;
 }
+/* ========================= */
 
-.home-link:hover,
-.next-link:hover, .color-link:hover  {
-	background: #001e49;
-	color: #fffde7 !important;
-	cursor: pointer;
-	transition: 0.6s ease;
-}
+/* ===========================
+======= DANIEL EDELMAN =======
+==============================  */
 
-/* .color-link:hover {
-	color: #fffde7 !important;
-	transition: 0.6s ease;
-	cursor: pointer;
+/* .video-align {
+	display: block;
+	margin: 0 auto;
 } */
 
-.next-link {
-	float: right;
-	background-color: #ffc107;
-	color: #212121;
-	padding: 20px 30px;
-}
+/* WIBO IMAGES  */
 
-
-/* ===============================
-PUNCH UP
-=============================== */
-
-
-
-/* .persona-images {
-	width: 48%;
-	height: 60%;
+.wibo-photo {
+	height: 235px;
+	width: 600px;
 	padding-bottom: 15px;
-} */
-
-
-.punch-flow {
-	height: 70%;
-	width: 85%;
 }
 
-.punch-wireframe {
-	height: 35%;
-	width: 45%;
-	padding: 5px 5px;
+/* PUNCH UP IMAGES  */
+
+.punch-research-image {
+	height: 320px;
+	width: 450px;
 }
 
-.punchup-wireframe {
-	height: 42%;
-	width: 30%;
-	padding: 5px 5px;
+.compet-research-image {
+	height: 100px;
+	width: 300px;
+	padding-bottom: 5px;
+	display: block;
+	margin: 0 auto;
 }
 
-.mockups {
-	height: 48%;
-	width: 48%;
+.styleguide {
+	height: 535px;
+	width: 375px;
+	display: block;
+	margin: 0 auto;
+}
+/* =============== */
+
+/* FEMME TECH IMAGES */
+
+.platform-research-image {
+	height: 125px;
+	width: 215px;
 }
 
-/* change link color  */
-.text-link {
-	color: #d84315;
-	font-weight: bold;
+.buzzword-research-image {
+	height: 210px;
+	width: 210px;
 }
 
-.text-link:hover {
-	color: #80d8ff;
-	transition: 0.3s ease;
+.persona-research-image {
+	height: 300px;
+	width: 550px;
 }
 
-.ia {
-	height: 60%;
-	width: 70%;
+.femme-research-image {
+	height: 320px;
+	width: 250px;
 }
 
-.info-arch {
-	color: #d81b60;
-}
+/* =============== */
 
-.pyramid {
-	height: 50%;
-	width: 50%;
-}
-
-.sketch {
-	height: 50%;
-	width: 40%;
-}
-
-.sketch-design {
-	height: 40%;
-	width: 38%;
-}
-
-.mood-board {
-	height: 30%;
-	width: 25%;
-}
-
-.sketches {
-	color: #aa00ff;
-}
-
-/* .sites {
-	height: 30%;
-	width: 40%;
-	padding: 5px;
-} */
-
-.sites {
-	height: 30%;
-	width: 40%;
-	padding: 10px;
-	border: 1px solid grey;
-}
-
-.long-site {
-	height: 20%;
-	width: 35%;
-}
-
-.user-testing {
-	color: #00897b;
-}
-
-.prototype {
-	color: #e65100;
-}
-
-.mock-up {
-	color: #0097a7;
-}
-/* =====================
-DANIEL EDELMAN
-======================== */
-
-
-.dan-website-button {
-	padding-bottom: 20px;
-}
-
-/* ============================
-FEMME TECH
-============================ */
-
-.focus {
-	color: #00897b;
-}
-
-.problem {
-	color: #3f51b5;
-}
-
-.problem-2 {
-	color: #5c6bc0;
-}
-
-.event {
-	color: #ec407a;
-}
-
-.platforms {
-	height: 18%;
-	width: 18%;
-	padding: 0 10px;
-}
-
-.buzzwords {
-	height: 22%;
-	width: 22%;
-	padding: 20px 10px;
-}
-
-.tech-buzzwords {
-	height: 28%;
-	width: 28%;
-	padding: 0 10px;
-}
-
-.concept {
-	color: #43a047;
-}
-
-.ideating {
-	color: #4caf50;
-}
-
-.design {
-	color: #66bb6a;
-	padding-top: 10px;
-}
-
-.research {
-	color: #c62828;
-}
-
-.femme-persona {
-	height: 45%;
-	width: 60%;
-}
-
-.users {
-	color: #d32f2f;
-}
-
-.femme-sketch {
-	width: 40%;
-	height: 40%;
-	padding-bottom: 20px;
-}
-
-.no {
-	color: #ef5350;
-}
-
-.yes {
-	color: #0288d1;
-}
-
-.visual-design {
-	padding-top: 25px;
-	color: #304ffe;
-}
-
-.femme-wireframe {
-	padding: 15px 0;
-	height: 40%;
-	width: 45%;
-}
-
-.femme-design {
-	height: 40%;
-	width: 40%;
-	padding: 5px 5px;
-}
-
-.femme-design-events {
-	height: 40%;
-	width: 35%;
-	padding: 5px 5px;
-}
-
-.idea {
-	color: #ff8f00;
-	padding-top: 20px;
-}
-
-.impact {
-	color: #e91e63;
-}
-
-.requirement {
-	color: #757575;
-}
-
-.filter {
-	color: #388e3c;
-}
-
-.filter-search {
-	color: #9e9d24;
-}
-
-.filter-primary {
-	color: #90a4ae;
-}
-
-.search-spacing {
-	/* padding-top: 15px; */
-	padding-bottom: 25px;
-}
-
-.take-aways {
-	color: #00b0ff;
-}
-
-/* ============================
-PHOTOMATIC
-============================ */
-
-.photo-link {
-	color: #00bcd4;
-}
-
-.photo-link:hover {
-	color: #d81b60;
-	transition: 0.3s ease;
-}
-
-.summary-photo-details {
-	padding-bottom: 20px;
-}
-
-.summary-photo-research {
-	padding-top: 20px;
-}
+/* PHOTOMATIC IMAGES  */
 
 .photo-img {
-	height: 40%;
-	width: 40%;
-	position: relative;
+	height: 300px;
+	width: 450px;
 }
 
 .photo-img-insta {
-	height: 35%;
-	width: 30%;
+	height: 450px;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
 }
 
 .photo-flow {
-	height: 90%;
-	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	height: 550px;
+	width: 875px;
 }
 
-.user-flow {
-	color: #283593;
-	padding: 20px 0 10px 0;
-	letter-spacing: 1px;
+/* =============== */
+
+/* TEXT */
+
+.summary {
+	padding: 8px 0;
 }
 
-.photomatic-landing {
-	height: 60%;
-	width: 60%;
-	padding-bottom: 30px;
+.click-view {
+	font-style: italic !important;
+	text-align: center;
+	font-size: 14px;
 }
 
-.development {
-	color: #f57f17;
+/* WIDTH, GRID, COLUMNS  */
+.project-details {
+	margin: 2% 9%;
+	font-size: 18.5px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* ====================
+==== MENU BOTTOM LIST ====
+======================= */
+
+.underline-projects {
+	border-top: 1px solid #90a4ae;
+}
+
+#list-projects {
+	margin: 20px 0;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.list-projects-links {
+	display: inline;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 0 10px;
+}
+
+
+a.bottom-list-links {
+	/* color: #ad1457 !important; */
+	color: #880e4f !important;
+
+}
+
+a.bottom-list-links:hover {
+	text-decoration: none;
+	/* color: #f06292 !important; */
+	color: #ff80ab !important;
+	transition: 0.5s ease;
 }
 
 /* ============================
