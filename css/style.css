@@ -6,8 +6,7 @@ body {
 	box-sizing: border-box;
 	font-family: "Assistant", "Noto Serif", sans-serif, serif;
 	margin: 0 auto;
-	background: #eceff1;
-	color: #1a237e !important;
+	/* color: #1a237e !important; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -36,7 +35,9 @@ button {
 */
 
 .navbar {
-	background: #eceff1 !important;
+	/* background: #eceff1 !important; */
+	background: #ffffff;
+	opacity: 1;
 }
 
 .home {
@@ -132,7 +133,7 @@ div.right {
 	width: 100%;
 	opacity: 0;
 	transition: .4s ease;
-	background: #eceff1;
+	background: #ffffff;
 	color: #1a237e !important;
 }
 
