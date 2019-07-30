@@ -4,10 +4,8 @@
 
 body {
 	box-sizing: border-box;
-	font-family: "Assistant", "Noto Serif", sans-serif, serif;
+	font-family: "Poppins", sans-serif, serif;
 	margin: 0 auto;
-	background: #eceff1;
-	color: #1a237e !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -30,17 +28,28 @@ button {
 	margin: 5px !important;
 }
 
+/*==============
+LIST GROUPS
+================*/
+
+.list-group {
+    list-style: decimal inside !important;
+}
+
+.list-group-item {
+    display: list-item !important;
+}
+
 /* ======================
 ===== NAV BAR ======
 =========================
 */
 
 .navbar {
-	background: #eceff1 !important;
+	background: #ffffff !important;
 }
 
 .home {
-	font-family: "Crimson Text", sans-serif;
 	font-size: 45px;
 }
 
@@ -50,7 +59,6 @@ button {
 }
 
 .nav-link {
-	font-family: "Assistant" !important;
 	font-size: 25px;
 	color: #ad1457 !important;
 }
@@ -81,17 +89,19 @@ div.right {
 
 .intro {
 	text-align: center;
-	font-family: "Crimson Text", sans-serif;
+	font-family: "Poppins", sans-serif;
 	color: #455a64;
 }
 
 .jane-header {
 	margin-top: 8%;
 	margin-bottom: 4%;
+	font-weight: 300;
 }
 
 .jane-description {
 	margin-bottom: 8%;
+	font-weight: 400;
 }
 
 
@@ -132,7 +142,7 @@ div.right {
 	width: 100%;
 	opacity: 0;
 	transition: .4s ease;
-	background: #eceff1;
+	background: #ffffff;
 	color: #1a237e !important;
 }
 
@@ -152,7 +162,7 @@ div.right {
 	font-size: 25px;
 	text-align: center;
 	padding: 10px 0;
-	color: #3949ab !important;
+	/* color: #3949ab !important; */
 }
 
 .list {
@@ -192,6 +202,8 @@ div.right {
 	padding: 10px 0;
 	color: #ad1457 !important;
 	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .sub-center {
@@ -201,7 +213,10 @@ div.right {
 .second-header-project {
 	font-weight: bold;
 	padding: 10px 0;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ff3d00;
+	text-align: center;
 }
 
 .underline {
@@ -245,6 +260,12 @@ div.right {
 	line-height: 48px;
 }
 
+/* WIBO SUBHEADS  */
+
+.med-fid {
+	text-align: center;
+	font-weight: bold;
+}
 /* ====== */
 
 /* ================
@@ -293,6 +314,28 @@ div.right {
 	height: 290px;
 	width: 455px;
 	display: block;
+}
+
+.persona {
+	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote-break {
+	font-style: italic;
+	font-style: bold;
+	color: #4caf50;
+	text-align: center;
+}
+
+.wireframe {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapping {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* ========================= */
 
@@ -394,6 +437,7 @@ div.right {
 	font-style: italic !important;
 	text-align: center;
 	font-size: 14px;
+	padding: 10px 0;
 }
 
 /* WIDTH, GRID, COLUMNS  */
