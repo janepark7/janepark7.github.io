@@ -113,18 +113,20 @@ div.right {
 .intro {
 	text-align: center;
 	font-family: "Poppins", sans-serif;
-	color: #455a64;
+	/* color: #455a64; */
 }
 
 .jane-header {
 	margin-top: 8%;
 	margin-bottom: 4%;
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 
 .jane-description {
 	margin-bottom: 8%;
-	font-weight: 400;
+	/* font-weight: 400; */
+	font-size: 30px;
+	color: #616161;
 }
 
 
@@ -151,6 +153,7 @@ div.right {
 .project-title {
 	text-align: center;
 	font-weight: bold;
+	color: #1a237e !important;
 }
 
 .overlay {
