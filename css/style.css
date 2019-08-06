@@ -519,6 +519,10 @@ a.bottom-list-links:hover {
 	transition: 0.5s ease;
 }
 
+.inactive-link {
+	color: #9e9e9e;
+}
+
 /* ============================
 ABOUT ME
 ============================ */
