@@ -61,11 +61,11 @@ LIST GROUPS
 
 .nav-link {
 	font-size: 25px;
-	color: #ad1457 !important;
+	color: #1565c0 !important;
 }
 
 .nav-link:hover {
-	color: #f06292 !important;
+	color: #2196f3 !important;
 	transition: 0.5s ease;
 }
 
@@ -342,6 +342,15 @@ div.right {
 	margin: 0 auto;
 }
 
+.punch-ui {
+	padding: 0 8px;
+	height: 265px;
+	width: 315px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .mockup {
 	padding: 0 8px;
 	height: 290px;
@@ -397,18 +406,19 @@ div.right {
 }
 
 .compet-research-image {
-	height: 100px;
-	width: 300px;
+	height: 35%;
+	width: 40%;
 	padding-bottom: 5px;
-	display: block;
+	display: relative;
 	margin: 0 auto;
 }
 
 .styleguide {
-	height: 535px;
-	width: 375px;
+	height: 50%;
+	width: 35%;
 	display: block;
 	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* =============== */
 
@@ -508,14 +518,13 @@ div.right {
 
 a.bottom-list-links {
 	/* color: #ad1457 !important; */
-	color: #880e4f !important;
+	color: #1565c0 !important;
 
 }
 
 a.bottom-list-links:hover {
 	text-decoration: none;
-	/* color: #f06292 !important; */
-	color: #ff80ab !important;
+	color: #2196f3 !important;
 	transition: 0.5s ease;
 }
 
