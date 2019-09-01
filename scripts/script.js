@@ -4,7 +4,7 @@
 // 	$("body").hide().fadeIn(2000);
 // });
 
-$(document).ready(function() {
-/* ! Fades in page on load */
-	$('body').css('display', 'none').fadeIn(1000);
-});
+// $(document).ready(function() {
+// /* ! Fades in page on load */
+// 	$('html').fadeIn(2000);
+// });
