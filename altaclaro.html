@@ -6,7 +6,7 @@
 	<link rel="stylesheet" types="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/cssresets.css"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<!-- <link href="https://fonts.googleapis.com/css?family=Assistant|Crimson+Text|Noto+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
 	<script type="text/javascript">
@@ -20,9 +20,91 @@
 </script>
 </head>
 	<body>
+		<!-- ***** NAV BAR ****  -->
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+			<div class="container">
+					<a href="index.html" class="navbar-brand home">Jane Park</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item active sub-link">
+						<a class="nav-link project-link" href="index.html">Projects</a>
+					</li>
+					<li class="nav-item active sub-link">
+						<a class="nav-link about-link" href="about.html">About Me</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+
 		<div class="container">
-			<h1>Alta Claro</h1>
+			<h1 class="header-project"><span class="underline">Alta Claro</span></h1>
+			<img src="assets/images/altaclaro.png" class="img-project"/>
+
+			<!-- <div class="project-details"> -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-4">
+					<h2>Challenge</h2>
+				</div>
+
+				<div class="col-lg-8 col-sm-4">
+					Bacon ipsum dolor amet pastrami chuck t-bone beef ribs capicola, kevin rump sausage brisket cow strip steak porchetta leberkas sirloin.
+					Brisket shankle andouille, landjaeger ground round meatloaf short loin venison picanha chuck salami tail. Salami ball tip landjaeger, porchetta meatloaf filet mignon alcatra doner chislic beef corned beef capicola.
+					Bresaola meatball ham hock andouille turkey salami pork belly cow pork ground round. Salami turducken shankle filet mignon.
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-sm-4">
+					<h2>My Role</h2>
+				</div>
+
+				<div class="col-lg-8 col-sm-4">
+					<h4>Lead UX Researcher, Project Manager</h4>
+				</div>
+			</div>
+
+			<!-- </div> -->
+
+		<div class="underline-projects">
+
+			<ul id="list-projects">
+
+				<li class="list-projects-links inactive-link">
+					Alta Claro
+				</li>
+
+				<li class="list-projects-links inactive-link">
+					<a href="wibo.html" class="bottom-list-links">ShopWIBO
+						StaffDashboard</a>
+				</li>
+
+					<li class="list-projects-links">
+						<a href="punchup.html" class="bottom-list-links">Punch Up</a>
+					</li>
+
+					<li class="list-projects-links">
+						<a href="ouchie.html" class="bottom-list-links">Ouchie</a>
+					</li>
+
+					<p>
+						<li class="list-projects-links">
+							<a href="photo.html" class="bottom-list-links">Photomatic</a>
+						</li>
+
+						<li class="list-projects-links">
+							<a href="femme.html" class="bottom-list-links">Femme Tech</a>
+						</li>
+					</p>
+
+
+			</ul>
+		</div>
 
 		</div>
+
 	</body>
 </html>
