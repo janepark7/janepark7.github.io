@@ -485,7 +485,7 @@ div.right {
 
 /* WIDTH, GRID, COLUMNS  */
 .project-details {
-	margin: 2% 9%;
+	margin: 1.5% 9%;
 	font-size: 18.5px;
 }
 
@@ -611,4 +611,11 @@ h5.contact-link:hover {
 /* ROUGH DRAFT STYLESHEET  */
 .research-container {
 	padding: 0 30px;
+}
+
+
+/*--------DRAFTING AND TESTING--------*/
+.img-size {
+	height: 400px;
+	width: 555px;
 }
