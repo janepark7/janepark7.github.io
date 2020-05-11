@@ -50,9 +50,9 @@ LIST GROUPS
 	opacity: 1;
 }
 
-.home {
+/* .home {
 	font-size: 45px;
-}
+} */
 
 .home:hover {
 	color: #7986cb !important;
@@ -630,4 +630,9 @@ h5.contact-link:hover {
 
 .project-details-2 {
 	margin: 15px 20px;
+}
+
+.case-study {
+	background: #F9FBF4;
+	/* padding: 0 1.75%; */
 }
