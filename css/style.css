@@ -60,7 +60,7 @@ LIST GROUPS
 }
 
 .nav-link {
-	font-size: 25px;
+	/* font-size: 25px; */
 	color: #1565c0 !important;
 }
 
@@ -121,13 +121,14 @@ div.right {
 	margin-top: 8%;
 	margin-bottom: 4%;
 	/* font-weight: 300; */
+	font-weight: 400;
+	
 }
 
 .jane-description {
 	margin-bottom: 8%;
 	/* font-weight: 400; */
 	font-size: 30px;
-	color: #616161;
 }
 
 
